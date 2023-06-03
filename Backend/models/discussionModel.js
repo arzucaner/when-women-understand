@@ -5,7 +5,7 @@ const DiscussionSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  response: {
+  discussion: {
     type: String,
     required: false,
   },
