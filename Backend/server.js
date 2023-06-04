@@ -1,6 +1,6 @@
 //Dependencies
-const app = express();
 const express = require("express");
+const app = express();
 const MongoStore = require("connect-mongo")(session);
 const Passage = require("@passageidentity/passage-node");
 const session = require("express-session");
