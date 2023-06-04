@@ -9,7 +9,7 @@ module.exports = {
       const post = await Post.findById(req.params.id);
       const user = await User.findById(req.user);
       const discussion = await Discussion.find({ post: req.params.id })
-        .sort({ createdAt: "desc" })
+        .sort({ createdAt: "asc" })
         .lean();
       res.render("post.ejs", {
         post: post,
@@ -22,15 +22,6 @@ module.exports = {
   },
   getCreatePost: (req, res) => {
     res.render("createPost.ejs");
-  },
-    createListing: async (req, res) => {
-    try {
-
-      console.log("Listing has been added!");
-      res.redirect("/profile");
-    } catch (err) {
-      console.log(err);
-    }
   },
   createPost: async (req, res) => {
     try {
@@ -60,6 +51,18 @@ module.exports = {
       }
       console.log("Post has been created!");
       res.redirect(`/post/${req.params.id}`);
+    } catch (err) {
+      console.log(err);
+    }
+  },
+  getPostList: async (req, res) => {
+    try {
+      const postList = await Post.find({})
+      .sort({ createdAt: "desc"})
+      .lean();
+      res.render("post.ejs", {
+        postList: postList,
+      });
     } catch (err) {
       console.log(err);
     }
