@@ -1,9 +1,7 @@
 //Dependencies
 const express = require("express");
 const app = express();
-const MongoStore = require("connect-mongo")(session);
 const Passage = require("@passageidentity/passage-node");
-const session = require("express-session");
 
 //Port
 const PORT = process.env.PORT || 8000;
@@ -51,16 +49,6 @@ app.post("/registration", async (req, res) => {
 //Body Parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
-//Setup Sessions - Stored In MongoDB
-app.use(
-  session({
-    secret: "keyboard cat",
-    resave: false,
-    saveUninitialized: false,
-    store: new MongoStore({ mongooseConnection: mongoose.connection }),
-  })
-);
 
 //Setup Routes For Which The Server Is Listening
 app.use("/post", postRoutes);
