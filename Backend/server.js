@@ -1,9 +1,10 @@
 //Dependencies
 const express = require("express");
-const app = express();
-const MongoStore = require("connect-mongo")(session);
-const Passage = require("@passageidentity/passage-node");
 const session = require("express-session");
+const app = express();
+const MongoStore = require("connect-mongo");
+const Passage = require("@passageidentity/passage-node");
+
 
 //Port
 const PORT = process.env.PORT || 8000;
@@ -58,7 +59,7 @@ app.use(
     secret: "keyboard cat",
     resave: false,
     saveUninitialized: false,
-    store: new MongoStore({ mongooseConnection: mongoose.connection }),
+    store: MongoStore.create({ mongooseConnection: mongoose.connection }),
   })
 );
 
