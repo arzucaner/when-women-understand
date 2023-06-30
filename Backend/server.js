@@ -1,26 +1,15 @@
-//Dependencies
+// Dependencies
 const express = require("express");
-const session = require("express-session");
-const app = express();
-const MongoStore = require("connect-mongo");
-const Passage = require("@passageidentity/passage-node");
-
-
-//Port
-const PORT = process.env.PORT || 8000;
-
-//Routes
+const dotenv = require("dotenv").config();
 const connectDB = require("./config/db");
-const commentRoutes = require("./routes/comment");
-const postRoutes = require("./routes/post");
+const PORT = process.env.PORT || 8000;
+const Passage = require("@passageidentity/passage-node");
+const app = express();
 
-//Use .env file in config folder
-require("dotenv").config({ path: "./config/.env" });
-
-//Connect to database
+// Connect to database
 connectDB();
 
-//Passage requires an App ID and, optionally, an API Key
+// Passage requires an App ID and, optionally, an API Key
 const passage = new Passage({
   appID: process.env.PASSAGE_APP_ID,
   apiKey: process.env.PASSAGE_API_KEY,
@@ -41,7 +30,7 @@ app.post("/registration", async (req, res) => {
       });
     }
   } catch (e) {
-    //Authentication failed
+    // authentication failed
     console.log(e);
     res.json({
       authStatus: "failure",
@@ -49,23 +38,5 @@ app.post("/registration", async (req, res) => {
   }
 });
 
-//Body Parsing
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-
-//Setup Sessions - Stored In MongoDB
-app.use(
-  session({
-    secret: "keyboard cat",
-    resave: false,
-    saveUninitialized: false,
-    store: MongoStore.create({ mongooseConnection: mongoose.connection }),
-  })
-);
-
-//Setup Routes For Which The Server Is Listening
-app.use("/post", postRoutes);
-app.use("/comment", commentRoutes);
-
-//Log server running
+// Log server running
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
