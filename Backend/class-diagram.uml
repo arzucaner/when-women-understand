@@ -1,0 +1,41 @@
+@startuml
+
+class User <<entity>> {
+  + UserID: int
+  + Username: string
+  + Password: string
+  + Email: string
+  + FirstName: string
+  + LastName: string
+  + Register(): bool
+  + Login(username: string, password: string): bool
+  + UpdateProfile(): bool
+  + ResetPassword(): bool
+}
+
+class AuthenticationService <<entity>> {
+  + RegisterUser(user: User): bool
+  + AuthenticateUser(username: string, password: string): bool
+  + LogoutUser(): bool
+}
+
+class UserProfile <<entity>> {
+  + UserID: int
+  + Username: string
+  + Email: string
+  + ViewProfile(userID: int): UserProfile
+  + EditProfile(userID: int, updatedProfile: UserProfile): bool
+}
+
+User --|> AuthenticationService: Uses
+User --|> UserProfile: Manages
+
+skinparam class {
+  BackgroundColor yellow
+  ArrowColor Yellow
+  BorderColor OrangeRed
+  skinparam stereotypeCBackgroundColor OrangeRed
+}
+
+@enduml
+
