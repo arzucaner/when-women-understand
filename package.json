@@ -8,6 +8,7 @@
     "dev": "nodemon Backend/server.js"
   },
   "dependencies": {
+    "@passageidentity/passage-node": "^2.6.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
