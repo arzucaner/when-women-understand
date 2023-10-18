@@ -4,11 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node Backend/server.js",
-    "dev": "nodemon Backend/server.js"
+    "client": "npm start --prefix frontend",
+    "start": "concurrently \"node Backend/server.js\" \"npm run client\"",
+    "dev": "concurrently \"nodemon Backend/server.js\" \"npm run client\""
   },
   "dependencies": {
     "@passageidentity/passage-node": "^2.6.0",
+    "concurrently": "^8.2.1",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
