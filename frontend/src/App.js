@@ -7,11 +7,7 @@ import AboutUsPage from "./pages/AboutUsPage";
 import Dashboard from "./pages/Dashboard";
 import IdentifyPage from "./pages/IdentifyPage";
 import SupportPage from "./pages/SupportPage";
- main
 import ComingSoonPage from "./pages/ComingSoonPage";
-
-=======
- main
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
