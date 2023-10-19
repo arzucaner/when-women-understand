@@ -129,32 +129,105 @@ const HomePage = () => {
 
       <div className="middle-content">
         <h3>We are here to put an end to psychological abuse</h3>
-        <ResourceCard />
-        <ResourceCard />
-        <ResourceCard />
+
+        <div className="resource-card-box">
+          <ResourceCard
+            image="path-to-image1.jpg"
+            title="Card 1"
+            description="Description for Card 1"
+            link="/destination-page-url" // TODO:Replace with the actual URL
+            bg={true} // Card with background
+          />
+          <ResourceCard
+            image="path-to-image2.jpg"
+            title="Card 2"
+            description="Description for Card 2"
+            link="/destination-page-url" // TODO:Replace with the actual URL
+            bg={true} // Card with background
+          />
+          <ResourceCard
+            image="path-to-image3.jpg"
+            title="Card 3"
+            description="Description for Card 3"
+            link="/destination-page-url" // TODO:Replace with the actual URL
+            bg={true} // Card with background
+          />
+        </div>
+
         <h4>
           Finding Strength in Support: Your Guide to Seeking Help and Healing
-          from Psychological Abuse{" "}
+          from Psychological Abuse
         </h4>
-        <ResourceCard />
-        <ResourceCard />
-        <ResourceCard />
+
+        <div className="resource-card-box">
+          <ResourceCard
+            image="orange-circle.png"
+            title="Identify the abuse"
+            description="Description for Card 4"
+            link="/destination-page-url" // TODO:Replace with the actual URL
+            bg={false} // Card without background
+          />
+          <ResourceCard
+            image="orange-circle.png"
+            title="Get help"
+            description="Description for Card 5"
+            link="/destination-page-url" // TODO:Replace with the actual URL
+            bg={false} // Card without background
+          />
+          <ResourceCard
+            image="orange-circle.png"
+            title="Support"
+            description="Description for Card 6"
+            link="/destination-page-url"
+            bg={false} // Card without background
+          />
+        </div>
       </div>
-      <div className="container-fluid">
+
+      <div className="text-section">
         <h1>"Loren"</h1>
         <div>WHO Logo</div>
       </div>
+
       <h2>
         Beyond the Shadows: Unveiling Personal Journeys of Survivors of
         Psychological Abuse
       </h2>
-      <div>
-        <ResourceCard />
-        <ResourceCard />
-        <ResourceCard />
+
+      <div className="resource-card-box">
+      <ResourceCard
+          image=""
+          title="Article 1"
+          description="Date here "
+          link="/destination-page-url"
+          bg={false} // Card without background
+        />
+         <ResourceCard
+          image=""
+          title="Article 2"
+          description="Date here "
+          link="/destination-page-url"
+          bg={false} // Card without background
+        />
+         <ResourceCard
+          image=""
+          title="Article 3"
+          description="Date here "
+          link="/destination-page-url"
+          bg={false} // Card without background
+        />
+         <ResourceCard
+          image=""
+          title="Article 4"
+          description="Date here "
+          link="/destination-page-url"
+          bg={false} // Card without background
+        />
       </div>
+
       <Button />
-      <div className="container-fluid">
+      
+      <div className="text-section">
         <div className="text-section">
           <h2>Lorem</h2>
           <Button />
