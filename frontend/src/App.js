@@ -8,16 +8,13 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <HomePage />
-      </div>
+    <div className="App">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/registration" element={<RegistrationPage />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
