@@ -1,43 +1,42 @@
-//Dependencies
+// Dependencies
 const express = require("express");
 const dotenv = require("dotenv").config();
 const connectDB = require("./config/db");
 const PORT = process.env.PORT || 8000;
-const Passage = require("@passageidentity/passage-node")
+const Passage = require("@passageidentity/passage-node");
 const app = express();
 
-
-//Connect to database
+// Connect to database
 connectDB();
 
-//Passage requires an App ID and, optionally, an API Key
-const passageConfig = {
+// Passage requires an App ID and, optionally, an API Key
+const passage = new Passage({
   appID: process.env.PASSAGE_APP_ID,
   apiKey: process.env.PASSAGE_API_KEY,
-};
+  authStrategy: "HEADER",
+});
 
-// Authentication using Passage class instance
-let passage = new Passage(passageConfig);
-app.get("/authenticatedRoute", async(req, res) => {
+app.post("/registration", async (req, res) => {
   try {
-    // Authenticate request using Passage
-    let userID = await passage.authenticateRequest(req);
+    const userID = await passage.authenticateRequest(req);
     if (userID) {
-      // User is authenticated
-      let userData = await passage.user.get(userID);
-      console.log(userData);
+      // user is authenticated
+      const { email, phone } = await passage.user.get(userID);
+      const identifier = email ? email : phone;
+
+      res.json({
+        authStatus: "success",
+        identifier,
+      });
     }
   } catch (e) {
-    // Authentication failed
+    // authentication failed
     console.log(e);
-    res.send("Authentication failed!");
+    res.json({
+      authStatus: "failure",
+    });
   }
 });
 
-//Test?
-app.get("/", (req, res) => {
-  res.send("Hello");
-});
-
-//Log server running
+// Log server running
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
