@@ -10,8 +10,7 @@ const HomePage = () => {
       <div
         className="container-fluid bg-image d-flex flex-column"
         style={{
-          backgroundImage:
-            "url('https://source.unsplash.com/3-women-sitting-on-bench-near-the-flowers-GobsYxc_H_0')",
+          backgroundImage: `linear-gradient(rgba(31, 59, 33, 0.5), rgba(31, 59, 33, 0.5)), url('/Hero.jpg')`,
           height: "600px",
           alignContent: "center",
           alignSelf: "center",
@@ -133,7 +132,7 @@ const HomePage = () => {
 
         <div className="resource-card-box">
           <ResourceCard
-            image="path-to-image1.jpg"
+            image="learn.jpg"
             title="Learn"
             description="Being able to identify that there is an issue is an important first step. Learn more about psychological abuse and how to identify it."
             link="/destination-page-url" // TODO:Replace with the actual URL
@@ -142,7 +141,7 @@ const HomePage = () => {
             buttonText="Learn More"
           />
           <ResourceCard
-            image="path-to-image2.jpg"
+            image="resource.jpg"
             title="Resources"
             description="Need help? We have a list of resources to help you get started."
             link="/destination-page-url" // TODO:Replace with the actual URL
@@ -151,7 +150,7 @@ const HomePage = () => {
             buttonText="Learn More"
           />
           <ResourceCard
-            image="path-to-image3.jpg"
+            image="community.jpg"
             title="Community"
             description="Knowing that you are not alone in this journey is the first step to healing. Find a community of survivors and supporters to help you through this difficult time."
             link="/destination-page-url" // TODO:Replace with the actual URL
@@ -207,7 +206,7 @@ const HomePage = () => {
 
       <div className="resource-card-box">
         <ResourceCard
-          image=""
+          image="Jamie's story.jpg"
           title="Jamies's Story"
           description="For years I thought I was losing my mind. My husband was always nice to me and doing thoughtful things for me, but then there were times he would subtly put me down and make me feel like I wasn’t worth anything."
           link="/destination-page-url"
@@ -216,7 +215,7 @@ const HomePage = () => {
           buttonText="Read more"
         />
         <ResourceCard
-          image=""
+          image="Justine's story.jpg"
           title="Faith's Story"
           description=" I was being gaslit and love bombed but didn't know what that was. I knew that he was playing mind games with me but didn't understand why."
           link="/destination-page-url"
@@ -225,7 +224,7 @@ const HomePage = () => {
           buttonText="Read more"
         />
         <ResourceCard
-          image=""
+          image="Kathleen's story.jpg"
           title="Sofia's Story"
           description="It happened so slowly, I didn&rsquo;t realize what was happening to me. It started as a friendship, then a forbidden love affair"
           link="/destination-page-url"
@@ -234,7 +233,7 @@ const HomePage = () => {
           buttonText="Read more"
         />
         <ResourceCard
-          image=""
+          image="Khadijah's story.jpg"
           title="Natalia's Story"
           description="I sometimes find myself downplaying what happened. I feel the need to explain that I was emotionally/psychologically abused, but never physically."
           link="/destination-page-url"
@@ -260,7 +259,7 @@ const HomePage = () => {
             </div>
           </div>
           <div className="col-md-5">
-            <img src="your-image.jpg" alt="Your Image" className="img-fluid" />
+            <img src="Volunteer.jpg" alt="Your Image" className="img-fluid" />
           </div>
         </div>
       </div>
