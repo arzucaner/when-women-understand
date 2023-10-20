@@ -1,7 +1,7 @@
 import React from 'react';
 import './ResourceCard.css';
 
-const ResourceCard = ({ image, title, description, link, bg }) => {
+const ResourceCard = ({ image, title, description, link, bg, buttonStyle, buttonText }) => {
   const cardClass = bg ? 'card-with-bg' : 'card-without-bg';
 
   return (
@@ -9,7 +9,9 @@ const ResourceCard = ({ image, title, description, link, bg }) => {
       <img src={image} alt={title} />
       <h2>{title}</h2>
       <p>{description}</p>
-      <a href={link} className="learn-more-link">Learn More</a>
+      <button onClick={() => window.location.href = link} className={`custom-button ${buttonStyle}`}>
+      {buttonText}
+    </button>
     </div>
   );
 };
