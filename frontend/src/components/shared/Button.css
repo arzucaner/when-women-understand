@@ -1,0 +1,32 @@
+
+.green-btn {
+    background-color: #213321;
+    color: #dde8cf;
+    border-radius:0.5rem;
+    font-size: larger;
+    padding:0.5rem;
+  }
+  
+  
+.learn-more-btn {
+background-color: transparent;
+    color: #213321;
+    border:none;
+;
+    
+  }
+  
+  .read-more-btn {
+    background-color: transparent; 
+    color: #ffaf5f; 
+    border:none
+  
+  }
+  
+
+  /* .no-bkg-btn {
+    background-color: #00FF00; 
+    color: #000000;
+
+  } */
+  

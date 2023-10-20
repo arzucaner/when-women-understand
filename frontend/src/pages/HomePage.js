@@ -116,7 +116,7 @@ const HomePage = () => {
               >
                 We are silencing abuse
               </h1>
-              <div class="py-2 fs-5">
+              <div  class="py-2 fs-5">
                 Let's put an end to psychlogical abuse together
               </div>
             </div>
