@@ -116,7 +116,7 @@ const HomePage = () => {
               >
                 We are silencing abuse
               </h1>
-              <div  class="py-2 fs-5">
+              <div class="py-2 fs-5">
                 Let's put an end to psychlogical abuse together
               </div>
             </div>
@@ -173,6 +173,8 @@ const HomePage = () => {
             description="Description for Card 4"
             // link="/destination-page-url" // TODO:Replace with the actual URL
             bg={false} // Card without background
+            
+
         
           />
           <ResourceCard
@@ -181,6 +183,7 @@ const HomePage = () => {
             description="Description for Card 5"
             link="/destination-page-url" // TODO:Replace with the actual URL
             bg={false} // Card without background
+            buttonStyle="learn-more-btn"
           />
           <ResourceCard
             image="orange-circle.png"

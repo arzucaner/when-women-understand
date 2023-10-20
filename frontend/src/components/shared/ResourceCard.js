@@ -9,9 +9,9 @@ const ResourceCard = ({ image, title, description, link, bg, buttonStyle, button
       <img src={image} alt={title} />
       <h2>{title}</h2>
       <p>{description}</p>
-      <button onClick={() => window.location.href = link} className={`learn-more-button ${buttonStyle}`}>
-        {buttonText} {/* Display the buttonText prop value as the button text */}
-      </button>
+      <button onClick={() => window.location.href = link} className={`custom-button ${buttonStyle}`}>
+      {buttonText}
+    </button>
     </div>
   );
 };
