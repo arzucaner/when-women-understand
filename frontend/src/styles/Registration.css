@@ -1,3 +1,27 @@
 .registration-page {
-    background-color: #FAF8F6;
+    
+    height: 100vh
+}
+
+
+
+passage-auth {
+    /* Header Text Styles */
+    --passage-header-font-family: 'Playfair Display', serif;
+    --passage-header-font-size: 2.5rem;
+    --passage-header-font-weight: 500;
+    --passage-header-text-color: #141414;
+
+
+    --passage-body-font-family: 'Roboto', sans-serif;
+    --passage-body-font-size: 1rem;
+    --passage-body-text-color: #1F3B21;
+
+    /* Button Styles */
+    --passage-button-font-size: 16px;
+    --passage-primary-button-background-color: #1F3B21;
+    --passage-primary-button-background-hover-color: #1F3B21;
+
+    --passage-container-max-width: 100vw;
+    
 }
