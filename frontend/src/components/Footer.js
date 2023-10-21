@@ -10,15 +10,16 @@ const Footer = () => {
           <h1 className="footer-h1 text-left pb-2">You aren't alone</h1>
             <hr className="bg-light" />
           </div>
-          <div className="col-md-2 text-center">
+          <div className="col-md-3 text-center">
           <a
-              className="navbar-brand d-flex flex-column fw-bold"
-              href="#"
-              style={{ fontFamily: "'Playfair Display', serif" }}
-            >
-              <span className="mb-n1">When Women</span>
-              <span>Understand</span>
-            </a>
+  className="navbar-brand d-flex flex-column fw-bold"
+  href="#"
+  style={{ fontFamily: "'Playfair Display', serif", fontSize: "30px" }}
+>
+  <span className="mb-n1">When Women</span>
+  <span>Understand</span>
+</a>
+
           </div>
           <div className="col-md-2 text-center">
             <h4>Support</h4>
