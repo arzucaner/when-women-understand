@@ -1,10 +1,12 @@
 import Hero from "../components/Hero";
+import { Navbar } from "../components/Navbar";
 import ResourceCard from "../components/shared/ResourceCard";
 import Button from "../components/shared/Button";
 
 const LandingPage = () => {
   return ( 
     <div>
+      <Navbar />
       <div className="container-fluid info">
         <h1>Welcome to Our</h1>
         <h1>Supportive Communities</h1>
