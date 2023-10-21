@@ -7,21 +7,22 @@ const Footer = () => {
       <div className="container py-4">
         <div className="row">
           <div className="col-md-12">
-            <h1 classname="footer-h1" >You aren't alone</h1>
+          <h1 className="footer-h1 text-left pb-2">You aren't alone</h1>
             <hr className="bg-light" />
           </div>
-          <div className="col-md-2 text-center">
+          <div className="col-md-3 text-center">
           <a
-              className="navbar-brand d-flex flex-column fw-bold"
-              href="#"
-              style={{ fontFamily: "'Playfair Display', serif" }}
-            >
-              <span className="mb-n1">When Women</span>
-              <span>Understand</span>
-            </a>
+  className="navbar-brand d-flex flex-column fw-bold"
+  href="#"
+  style={{ fontFamily: "'Playfair Display', serif", fontSize: "30px" }}
+>
+  <span className="mb-n1">When Women</span>
+  <span>Understand</span>
+</a>
+
           </div>
           <div className="col-md-2 text-center">
-            <h5>Support</h5>
+            <h4>Support</h4>
             <ul>
               <li><a className="footer-a" href="#">Crisis Chat</a></li>
               <li><a href="#">24/7 helpline</a></li>
@@ -30,7 +31,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-2 text-center">
-            <h5>Resources</h5>
+            <h4>Resources</h4>
             <ul>
             <li><a href="#">Emotional guides</a></li>
             <li><a href="#">Statistics and reports</a></li>
@@ -39,7 +40,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-2 text-center">
-            <h5>Community</h5>
+            <h4>Community</h4>
             <ul>
             <li><a href="#">Survivor stories</a></li>
             <li><a href="#">Support groups</a></li>
@@ -48,7 +49,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-2">
-            <h5>Learn More</h5>
+            <h4>Learn More</h4>
             <ul>
             <li><a href="#">What is psychlogical abuse?</a></li>
             <li><a href="#">Signs of abuse</a></li>
