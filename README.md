@@ -36,6 +36,15 @@ Fostering Social Awareness: By promoting the project and using the website as a 
 the goal is to increase societal awareness about the importance of preventing psychological abuse and 
 fostering a sense of unity in addressing it.
 
+## Used Technologies:
+
+- Node.js: A backend environment that provides scalability and efficiency, ensuring the smooth operation of the website.
+- MongoDB: A database management system used for secure data storage and retrieval. Its flexibility and scalability make it suitable for managing user information and content.
+- Jest (For Testing): A testing framework used to ensure the reliability and performance of the website. Comprehensive testing is crucial to ensure the platform functions as intended, providing a safe and - effective user experience.
+- JavaScript: A core technology used to enhance interactivity and functionality, enabling the creation of dynamic user interfaces and a smooth user experience.
+- React: Employed to build the website's front end, offering a component-based structure that simplifies development and maintains consistency in design and functionality.
+- Bootstrap: Leveraged for its responsive design framework, ensuring a user-friendly and visually appealing website that is accessible across various devices and screen sizes.
+
 ## Getting Started
 
 ## Usage
