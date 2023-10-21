@@ -108,10 +108,10 @@ const HomePage = () => {
         </nav>
         <div className="d-flex h-100">
           <div
-            className="text-white text-start pb-5 ps-5 mb-5 grid row-gap-3"
+ className="text-white text-start mt-5 pb-5 ps-5 mb-5 grid row-gap-3"
             style={{ fontFamily: "'Roboto', sans-serif" }}
           >
-            <div className="hero-text mb-3 pb-3">
+            <div className="hero-text mb-3 pb-2 pt-5">
               <h1
                 className="py-2 mb-3 display-1"
                 id="hero-text"
@@ -123,16 +123,13 @@ const HomePage = () => {
                 Let's put an end to psychlogical abuse together
               </div>
             </div>
-
-            <a className="btn btn-outline-light btn-lg" href="#!" role="button">
-              Learn More
-            </a>
+            <Button title="Learn More" style="btn btn-outline-light" link="#!" />
           </div>
         </div>
       </div>
 
       <div className="middle-content">
-        <h3>We are here to put an end to psychological abuse</h3>
+        <h3 className="text-center p-3" style={{ fontFamily: "'Playfair Display', serif" }}>We are stronger when we stand together</h3>
 
         <div className="resource-card-box">
           <ResourceCard
@@ -165,7 +162,7 @@ const HomePage = () => {
           />
         </div>
 
-        <h3 style={{ fontFamily: "'Playfair Display', serif" }}>
+        <h3 className="p-4" style={{ fontFamily: "'Playfair Display', serif" }}>
           Finding Strength in Support: Your Guide to Seeking Help and Healing
           from Psychological Abuse
         </h3>
@@ -205,14 +202,14 @@ const HomePage = () => {
       </div>
 
       <div className="text-section">
-        <h1 className="p-5" style={{ backgroundColor: '#DDE8CF', fontFamily: "'Playfair Display', serif" }}>
+        <h1 className="text-center p-5" style={{ backgroundColor: '#DDE8CF', fontFamily: "'Playfair Display', serif" }}>
           Almost half of all women and men in the US have experienced
           psychological aggression by an intimate partner in their lifetime.
         </h1>
-        <div>WHO Logo</div>
+     
       </div>
 
-      <h2>Stories that inspire: Real life experiences of survivors</h2>
+      <h1 className="text-center pt-4" style={{  fontFamily: "'Playfair Display', serif" }}>Stories that inspire: Real life experiences of survivors</h1>
 
       <div className="resource-card-box">
         <ResourceCard
@@ -253,15 +250,18 @@ const HomePage = () => {
         />
       </div>
       
-      <a className="btn btn-outline-dark btn-lg mb-5" href="#!" role="button">
-        Get inspired
-      </a>
+      <div class="text-center">
+      <button className="btn btn-outline-dark btn-lg mb-5" type="button">
+  Get inspired
+</button>
 
-      <div className="container pb-4" >
+</div>
+
+      <div className="container pb-4 text-center" >
     <div className="row">
       <div className="col-md-7 " style={{ backgroundColor: '#FFAF5F' }}>
-        <div className="text-left inspired">
-          <h1 clasNames="text-dark mt-5" style={{ fontFamily: "'Playfair Display', serif" }}>
+        <div className="text-left inspired p-5">
+          <h1 clasNames="text-dark mt-2" style={{ fontFamily: "'Playfair Display', serif" }}>
             We are women who are passionate about understanding and
             preventing psychological abuse. Together, we can make a real
             difference.

@@ -1,11 +1,6 @@
 footer {
   padding-top: 20px;
-  text-align: center;
-}
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
 }
 
 hr {
@@ -20,7 +15,6 @@ img {
 }
 
 ul {
-  list-style: none;
   padding: 0;
 }
 
@@ -29,6 +23,7 @@ ul li {
 }
 
 a {
-  color: #fff;
-  text-decoration: none;
+  color: #fff !important;
+  text-decoration: none !important;
+  text-align: center !important;
 }

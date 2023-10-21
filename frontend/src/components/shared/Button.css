@@ -1,34 +1,53 @@
-
 .green-btn {
-    background-color: #213321;
-    color: #dde8cf;
-    border-radius:0.5rem;
-    font-size: larger;
-    padding:0.5rem;
-    margin:2rem;
-  }
-  
-  
+  background-color: #213321;
+  color: #dde8cf;
+  border-radius: 0.5rem;
+  font-size: larger;
+  padding: 0.5rem;
+  margin: 2rem;
+}
+
+.green-btn:hover {
+  background-color: #fff;
+  color: #213321;
+}
+
 .learn-more-btn {
-background-color: transparent;
-    color: #213321;
-    border:none;
-;
-    
-  }
-  
-  .read-more-btn {
-    background-color: transparent; 
-    color: #ffaf5f; 
-    border:none
-  
-  }
-  
+  background-color: transparent;
+  color: #213321;
+  border: none;
+}
 
-  .no-bkg-btn {
-    background-color: transparent; 
-    color: #000000;
-    border: none;
+.learn-more-btn:hover {
+  color: #ffaf5f;
+}
 
-  }
-  
+.read-more-btn {
+  background-color: transparent;
+  color: #ffaf5f;
+  border: none
+}
+
+
+
+.no-bkg-btn {
+  background-color: transparent;
+  color: #000000;
+  border: none;
+}
+
+.no-bkg-btn:hover {
+  color: #ffaf5f;
+}
+
+/* Your Button.css file */
+.btn-outline-light {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff; /* Default text color */
+}
+
+.btn-outline-light:hover  {
+  background-color: #fff; /* Change the background color on hover */
+  color: #000 !important; /* Change the text color on hover to dark */
+}
