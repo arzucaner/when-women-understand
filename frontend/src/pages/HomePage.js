@@ -3,9 +3,7 @@ import ResourceCard from "../components/shared/ResourceCard";
 import Button from "../components/shared/Button";
 import { Navbar } from "../components/Navbar";
 import "../App.css";
-import Footer from '../components/Footer';
-
-
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -46,7 +44,10 @@ const HomePage = () => {
               <i className="fas fa-bars"></i>
             </button>
 
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="#">
@@ -71,7 +72,10 @@ const HomePage = () => {
                     Dropdown
                   </a>
 
-                  <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  >
                     <li>
                       <a className="dropdown-item" href="#">
                         Action
@@ -108,7 +112,7 @@ const HomePage = () => {
         </nav>
         <div className="d-flex h-100">
           <div
- className="text-white text-start mt-5 pb-5 ps-5 mb-5 grid row-gap-3"
+            className="text-white text-start mt-5 pb-5 ps-5 mb-5 grid row-gap-3"
             style={{ fontFamily: "'Roboto', sans-serif" }}
           >
             <div className="hero-text mb-3 pb-2 pt-5">
@@ -123,17 +127,25 @@ const HomePage = () => {
                 Let's put an end to psychlogical abuse together
               </div>
             </div>
-            <Button title="Learn More" style="btn btn-outline-light" link="#!" />
+            <Button
+              title="Learn More"
+              style="btn btn-outline-light"
+              link="#!"
+            />
           </div>
         </div>
       </div>
 
       <div className="middle-content">
-        <h3 className="text-center p-3" style={{ fontFamily: "'Playfair Display', serif" }}>We are stronger when we stand together</h3>
+        <h3
+          className="text-center p-3"
+          style={{ fontFamily: "'Playfair Display', serif" }}
+        >
+          We are stronger when we stand together
+        </h3>
 
         <div className="resource-card-box">
           <ResourceCard
-     
             image="learn.jpg"
             title="Learn"
             description="Being able to identify that there is an issue is an important first step. Learn more about psychological abuse and how to identify it."
@@ -176,7 +188,6 @@ const HomePage = () => {
             bg={false} // Card without background
             buttonStyle="no-bkg-btn"
             buttonText="Read more"
-        
           />
           <ResourceCard
             image="Get Help.jpg"
@@ -186,7 +197,6 @@ const HomePage = () => {
             bg={false} // Card without background
             buttonStyle="no-bkg-btn"
             buttonText="Read more"
-        
           />
           <ResourceCard
             image="Heal.jpg"
@@ -196,20 +206,29 @@ const HomePage = () => {
             bg={false} // Card without background
             buttonStyle="no-bkg-btn"
             buttonText="Read more"
-
           />
         </div>
       </div>
 
       <div className="text-section">
-        <h1 className="text-center p-5" style={{ backgroundColor: '#DDE8CF', fontFamily: "'Playfair Display', serif" }}>
+        <h1
+          className="text-center p-5"
+          style={{
+            backgroundColor: "#DDE8CF",
+            fontFamily: "'Playfair Display', serif",
+          }}
+        >
           Almost half of all women and men in the US have experienced
           psychological aggression by an intimate partner in their lifetime.
         </h1>
-     
       </div>
 
-      <h1 className="text-center pt-4" style={{  fontFamily: "'Playfair Display', serif" }}>Stories that inspire: Real life experiences of survivors</h1>
+      <h1
+        className="text-center pt-4"
+        style={{ fontFamily: "'Playfair Display', serif" }}
+      >
+        Stories that inspire: Real life experiences of survivors
+      </h1>
 
       <div className="resource-card-box">
         <ResourceCard
@@ -249,35 +268,39 @@ const HomePage = () => {
           buttonText="Read more"
         />
       </div>
-      
-      <div class="text-center">
-      <button className="btn btn-outline-dark btn-lg mb-5" type="button">
-  Get inspired
-</button>
 
-</div>
+      <div className="text-center">
+        <button className="btn btn-outline-dark btn-lg mb-5" type="button">
+          Get inspired
+        </button>
+      </div>
 
-      <div className="container pb-4 text-center" >
-    <div className="row">
-      <div className="col-md-7 " style={{ backgroundColor: '#FFAF5F' }}>
-        <div className="text-left inspired p-5">
-          <h1 clasNames="text-dark mt-2" style={{ fontFamily: "'Playfair Display', serif" }}>
-            We are women who are passionate about understanding and
-            preventing psychological abuse. Together, we can make a real
-            difference.
-          </h1>
-          <button className="green-btn">Volunteer</button>
+      <div className="container pb-4 text-center">
+        <div className="row">
+          <div className="col-md-7 " style={{ backgroundColor: "#FFAF5F" }}>
+            <div className="text-left inspired p-5">
+              <h1
+                className="text-dark mt-2"
+                style={{ fontFamily: "'Playfair Display', serif" }}
+              >
+                We are women who are passionate about understanding and
+                preventing psychological abuse. Together, we can make a real
+                difference.
+              </h1>
+              <button className="green-btn">Volunteer</button>
+            </div>
+          </div>
+          <div className="col-md-5 pl-0">
+            <img
+              src="Volunteer.jpg"
+              alt="Your Image"
+              className="img-fluid m-0 p-0"
+            />
+          </div>
         </div>
       </div>
-      <div className="col-md-5 pl-0">
-        <img src="Volunteer.jpg" alt="Your Image" className="img-fluid m-0 p-0" />
-      </div>
-    </div>
-</div>
 
-
-
-     <Footer />
+      <Footer />
     </>
   );
 };
