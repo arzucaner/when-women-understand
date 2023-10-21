@@ -7,14 +7,14 @@ const ResourcePage = () => {
   return (
     <div>
       <div className="container-fluid info">
-        <h1 className="container text-center p-5">Knowledge Give You Power</h1>
-        <h3 className="container text-center p-5">
+        <h1 className="container text-center header-resource">Knowledge Gives You Power</h1>
+        <h3 className="container text-center ">
           Understanding what you are dealing with can help you understand how to
           heal
         </h3>
       </div>
 
-      
+
       <div className="container">
         <h2 className="container text-center pb-5">Signs of Psychological Abuse</h2>
         <p className="banner">
