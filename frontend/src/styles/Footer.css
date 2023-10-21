@@ -21,8 +21,7 @@ ul {
 ul li {
   margin-bottom: 10px;
 }
-
-a {
+.footer-a {
   color: #fff !important;
   text-decoration: none !important;
   text-align: center !important;
