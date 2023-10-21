@@ -1,9 +1,97 @@
 import "../styles/Navbar.css";
+import { Link } from "react-router-dom";
+import NavigationLink from "./shared/NavigationLink.js";
 
+const sectionInfo = {
+  stories: [
+    {
+      sectionName: "Psychological Abuse Stories",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Post-Abuse Success Stories",
+      sectionLink: "#",
+    },
+  ],
+  resources: [
+    {
+      sectionName: "Videos",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Articles",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Graphics and Infographics",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Educational Materials",
+      sectionLink: "#",
+    },
+  ],
+  awareness: [
+    {
+      sectionName: "More about Psychological Abuse",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Statistics",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Preventing Psychological Abuse",
+      sectionLink: "#",
+    },
+  ],
+  support: [
+    {
+      sectionName: "Crisis Hotlines",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Online Support Groups",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Useful Resources",
+      sectionLink: "#",
+    },
+  ],
+  contactUs: [
+    {
+      sectionName: "Contact Us",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Feedback",
+      sectionLink: "#",
+    },
+  ],
+  whoWeAre: [
+    {
+      sectionName: "Our Mission and Vision",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Join Our Mission",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Our Ethical Commitment",
+      sectionLink: "#",
+    },
+    {
+      sectionName: "Our Commitment to Inclusivity",
+      sectionLink: "#",
+    },
+  ],
+};
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-container">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg navbar-container d-flex align-content-center">
+      <div className="container-fluid navbar-container">
         <a className="navbar-brand wwu-logo" href="/">
           <svg
             width="10rem"
@@ -27,17 +115,34 @@ export const Navbar = () => {
             />
           </svg>{" "}
         </a>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="nav-list">
-            <li className="nav-item">
+        <div
+          className="collapse navbar-collapse navbar-links-content"
+          id="navbarSupportedContent"
+        >
+          <ul className="navbar-nav align-content-center nav-list">
+            <li className="nav-item dropdown">
               <a className="nav-link" aria-current="page" href="#">
                 Get Help
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Support
               </a>
+              <ul className="dropdown-menu">
+                {sectionInfo.contactUs.map((link) => (
+                  <NavigationLink
+                    name={link.sectionName}
+                    source={link.sectionLink}
+                  />
+                ))}
+              </ul>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -50,41 +155,76 @@ export const Navbar = () => {
                 Resources
               </a>
               <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                {/* <li><a className="dropdown-divider"></li> */}
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
+                {sectionInfo.resources.map((link) => (
+                  <NavigationLink
+                    name={link.sectionName}
+                    source={link.sectionLink}
+                  />
+                ))}
               </ul>
             </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Stories
               </a>
+              <ul className="dropdown-menu">
+                {sectionInfo.stories.map((link) => (
+                  <NavigationLink
+                    name={link.sectionName}
+                    source={link.sectionLink}
+                  />
+                ))}
+              </ul>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Identify Abuse
               </a>
+              <ul className="dropdown-menu">
+                {sectionInfo.awareness.map((link) => (
+                  <NavigationLink
+                    name={link.sectionName}
+                    source={link.sectionLink}
+                  />
+                ))}
+              </ul>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Who We Are
               </a>
+              <ul className="dropdown-menu">
+                {sectionInfo.whoWeAre.map((link) => (
+                  <NavigationLink
+                    name={link.sectionName}
+                    source={link.sectionLink}
+                  />
+                ))}
+              </ul>
             </li>
           </ul>
         </div>
+        <Link to="/registration">
+          <button className="btn auth-link-btn">Log In</button>
+        </Link>
       </div>
     </nav>
   );

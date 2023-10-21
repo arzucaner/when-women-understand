@@ -19,12 +19,12 @@ img {
   max-width: 100%;
 }
 
-ul {
+.footer-links-list {
   list-style: none;
   padding: 0;
 }
 
-ul li {
+.footer-link{
   margin-bottom: 10px;
 }
 

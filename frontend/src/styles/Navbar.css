@@ -17,20 +17,33 @@
     
 }
 
-.navbar-container {
+.navbar {
     background-color: transparent;
     height: 6.875rem;
     display: flex;
     align-content: center;
 }
 
+.navbar-container {
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+}
+
 .nav-list {
     font-family: "Roboto";
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 500;
     font-style: normal;
     color: #1F3B21;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
+    padding-left: 10rem;
+}
+
+.navbar-links-content {
+    display: flex!important;
+    justify-content: center;
+}
+
+.auth-link-btn {
+    background: #F0CC10!important;
+    
 }
