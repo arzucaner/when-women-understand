@@ -1,5 +1,6 @@
 import React from "react";
-import "./Footer.module.css";
+import "../styles/Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,83 +14,114 @@ const Footer = () => {
       <div className="container py-4">
         <div className="row">
           <div className="col-md-12">
-            <h1 classname="footer-h1">You aren't alone</h1>
+            <h1 className="footer-h1 text-left pb-2">You aren't alone</h1>
             <hr className="bg-light" />
           </div>
-          <div className="col-md-2 text-center">
-            <a
-              className="navbar-brand d-flex flex-column fw-bold"
-              href="#"
-              style={{ fontFamily: "'Playfair Display', serif" }}
+          <div className="col-md-3 text-center">
+            <Link
+              className="navbar-brand d-flex flex-column fw-bold footer-a"
+              to="#"
+              style={{
+                fontFamily: "'Playfair Display', serif",
+                fontSize: "30px",
+              }}
             >
               <span className="mb-n1">When Women</span>
               <span>Understand</span>
-            </a>
+            </Link>
           </div>
           <div className="col-md-2 text-center">
-            <h5>Support</h5>
-            <ul className="footer-links-list">
-              <li className="footer-link">
-                <a className="footer-a" href="#">
+            <h4>Support</h4>
+            <ul>
+              <li>
+                <Link className="footer-a" to="#">
                   Crisis Chat
-                </a>
+                </Link>
               </li>
-              <li className="footer-link">
-                <a href="#">24/7 helpline</a>
+              <li>
+                <Link to="#" className="footer-a">
+                  24/7 helpline
+                </Link>
               </li>
-              <li className="footer-link">
-                <a href="#">Emergency resources</a>
+              <li>
+                <Link to="#" className="footer-a">
+                  Emergency resources
+                </Link>
               </li>
-              <li className="footer-link">
-                <a href="#">Find a shelter</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-2 text-center">
-            <h5>Resources</h5>
-            <ul className="footer-links-list">
-              <li className="footer-link">
-                <a href="#">Emotional guides</a>
-              </li>
-              <li className="footer-link">
-                <a href="#">Statistics and reports</a>
-              </li>
-              <li className="footer-link">
-                <a href="#">Emergency resources</a>
-              </li>
-              <li className="footer-link">
-                <a href="#">Find a shelter</a>
+              <li>
+                <Link to="#" className="footer-a">
+                  Find a shelter
+                </Link>
               </li>
             </ul>
           </div>
           <div className="col-md-2 text-center">
-            <h5>Community</h5>
-            <ul className="footer-links-list">
-              <li className="footer-link">
-                <a href="#">Survivor stories</a>
+            <h4>Resources</h4>
+            <ul>
+              <li>
+                <Link to="#" className="footer-a">
+                  Emotional guides
+                </Link>
               </li>
-              <li className="footer-link">
-                <a href="#">Support groups</a>
+              <li>
+                <Link to="#" className="footer-a">
+                  Statistics and reports
+                </Link>
               </li>
-              <li className="footer-link">
-                <a href="#">Volunteer groups</a>
+              <li>
+                <Link to="#" className="footer-a">
+                  Emergency resources
+                </Link>
               </li>
-              <li className="footer-link">
-                <a href="#">Local support</a>
+              <li>
+                <Link to="#" className="footer-a">
+                  Find a shelter
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-2 text-center">
+            <h4>Community</h4>
+            <ul>
+              <li>
+                <Link to="#" className="footer-a">
+                  Survivor stories
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="footer-a">
+                  Support groups
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="footer-a">
+                  Volunteer groups
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="footer-a">
+                  Local support
+                </Link>
               </li>
             </ul>
           </div>
           <div className="col-md-2">
-            <h5>Learn More</h5>
-            <ul className="footer-links-list">
-              <li className="footer-link">
-                <a href="#">What is psychlogical abuse?</a>
+            <h4>Learn More</h4>
+            <ul>
+              <li>
+                <Link to="#" className="footer-a">
+                  What is psychlogical abuse?
+                </Link>
               </li>
-              <li className="footer-link">
-                <a href="#">Signs of abuse</a>
+              <li>
+                <Link to="#" className="footer-a">
+                  Signs of abuse
+                </Link>
               </li>
-              <li className="footer-link">
-                <a href="#">Why it matters</a>
+              <li>
+                <Link to="#" className="footer-a">
+                  Why it matters
+                </Link>
               </li>
             </ul>
           </div>
