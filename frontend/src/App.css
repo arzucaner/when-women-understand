@@ -14,7 +14,8 @@
 }
 
 body{
-  background-color:#faf8f6;
+  background-color:red;
+  font: "'Playfair Display', serif"
 }
 
 .App-header {

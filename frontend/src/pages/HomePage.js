@@ -3,6 +3,9 @@ import ResourceCard from "../components/shared/ResourceCard";
 import Button from "../components/shared/Button";
 import { Navbar } from "../components/Navbar";
 import "../App.css";
+import Footer from '../components/Footer';
+
+
 
 const HomePage = () => {
   return (
@@ -111,6 +114,7 @@ const HomePage = () => {
             <div className="hero-text mb-3 pb-3">
               <h1
                 class="py-2 mb-3 display-1"
+                id="hero-text"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 We are silencing abuse
@@ -132,6 +136,7 @@ const HomePage = () => {
 
         <div className="resource-card-box">
           <ResourceCard
+     
             image="learn.jpg"
             title="Learn"
             description="Being able to identify that there is an issue is an important first step. Learn more about psychological abuse and how to identify it."
@@ -160,42 +165,47 @@ const HomePage = () => {
           />
         </div>
 
-        <h3>
+        <h3 style={{ fontFamily: "'Playfair Display', serif" }}>
           Finding Strength in Support: Your Guide to Seeking Help and Healing
           from Psychological Abuse
         </h3>
 
         <div className="resource-card-box">
           <ResourceCard
-            image="orange-circle.png"
+            image="Identify abuse.jpg"
             title="Identify the abuse"
-            description="Description for Card 4"
+            description="The first step to healing is to identify the abuse. Learn more about how to identify psychological abuse."
             // link="/destination-page-url" // TODO:Replace with the actual URL
             bg={false} // Card without background
-            
-
+            buttonStyle="no-bkg-btn"
+            buttonText="Read more"
         
           />
           <ResourceCard
-            image="orange-circle.png"
+            image="Get Help.jpg"
             title="Get help"
-            description="Description for Card 5"
+            description="You are not alone. There are many resources available to help you."
             link="/destination-page-url" // TODO:Replace with the actual URL
             bg={false} // Card without background
-            buttonStyle="learn-more-btn"
+            buttonStyle="no-bkg-btn"
+            buttonText="Read more"
+        
           />
           <ResourceCard
-            image="orange-circle.png"
-            title="Support"
-            description="Description for Card 6"
+            image="Heal.jpg"
+            title="Heal"
+            description="Healing is a journey. Find a community of survivors and supporters to help you through this difficult time."
             link="/destination-page-url"
             bg={false} // Card without background
+            buttonStyle="no-bkg-btn"
+            buttonText="Read more"
+            
           />
         </div>
       </div>
 
       <div className="text-section">
-        <h1>
+        <h1 class="p-5" style={{ backgroundColor: '#DDE8CF', fontFamily: "'Playfair Display', serif" }}>
           Almost half of all women and men in the US have experienced
           psychological aggression by an intimate partner in their lifetime.
         </h1>
@@ -242,37 +252,32 @@ const HomePage = () => {
           buttonText="Read more"
         />
       </div>
-      <a class="btn btn-outline-dark btn-lg" href="#!" role="button">
+      
+      <a class="btn btn-outline-dark btn-lg mb-5" href="#!" role="button">
         Get inspired
       </a>
 
-      <div className="container">
-        <div className="row">
-          <div className="col-md-7">
-            <div className="text-left inspired">
-              <h3>
-                We are women who are passionate about understanding and
-                preventing psychological abuse. Together, we can make a real
-                difference.
-              </h3>
-              <button className="green-btn">Volunteer</button>
-            </div>
-          </div>
-          <div className="col-md-5">
-            <img src="Volunteer.jpg" alt="Your Image" className="img-fluid" />
-          </div>
+      <div className="container pb-4" >
+    <div className="row">
+      <div className="col-md-7 " style={{ backgroundColor: '#FFAF5F' }}>
+        <div className="text-left inspired">
+          <h1 class="text-dark mt-5" style={{ fontFamily: "'Playfair Display', serif" }}>
+            We are women who are passionate about understanding and
+            preventing psychological abuse. Together, we can make a real
+            difference.
+          </h1>
+          <button className="green-btn">Volunteer</button>
         </div>
       </div>
-
-      <div className="text-section">
-        <div className="text-section">
-          <h2>Lorem</h2>
-          <Button />
-        </div>
-        <div>Image</div>
-
-        <div>Footer</div>
+      <div className="col-md-5 pl-0">
+        <img src="Volunteer.jpg" alt="Your Image" className="img-fluid m-0 p-0" />
       </div>
+    </div>
+</div>
+
+
+
+     <Footer />
     </>
   );
 };

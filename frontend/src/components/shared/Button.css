@@ -4,7 +4,8 @@
     color: #dde8cf;
     border-radius:0.5rem;
     font-size: larger;
-    padding:0.5rem;
+    padding:0.rem;
+    margin:2rem;
   }
   
   
@@ -24,9 +25,10 @@ background-color: transparent;
   }
   
 
-  /* .no-bkg-btn {
-    background-color: #00FF00; 
+  .no-bkg-btn {
+    background-color: transparent; 
     color: #000000;
+    border: none;
 
-  } */
+  }
   
