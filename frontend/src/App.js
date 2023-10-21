@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import CommunityPage from "./pages/CommunityPage";
 import RegistrationPage from "./pages/RegistrationPage";
 import Dashboard from "./pages/Dashboard";
+import ResourcePage from "./pages/ResourcePage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/registration" element={<RegistrationPage />} />
         <Route path="/dashboard" element={<Dashboard />}></Route>
+        <Route path="/resource" element={<ResourcePage />}></Route>
       </Routes>
     </div>
   );
