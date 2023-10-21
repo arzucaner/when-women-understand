@@ -1,0 +1,36 @@
+.wwu-logo {
+    font-family: Playfair Display;
+    color: #213321;
+}
+
+.wwu-logo-top {
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+
+.wwu-logo-bottom {
+    font-size: 1.7rem;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+
+.navbar-container {
+    background-color: transparent;
+    height: 6.875rem;
+    display: flex;
+    align-content: center;
+}
+
+.nav-list {
+    font-family: "Roboto";
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: normal;
+    color: #1F3B21;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
