@@ -23,10 +23,10 @@ const HomePage = () => {
           filter: "sepia(33%)",
         }}
       >
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
+        <nav className="navbar navbar-expand-lg navbar-light">
+          <div className="container-fluid">
             <a
-              class="navbar-brand d-flex flex-column fw-bold"
+              className="navbar-brand d-flex flex-column fw-bold"
               href="#"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
@@ -35,7 +35,7 @@ const HomePage = () => {
             </a>
 
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-mdb-toggle="collapse"
               data-mdb-target="#navbarSupportedContent"
@@ -43,25 +43,25 @@ const HomePage = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link active" aria-current="page" href="#">
                     Home
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
                     Link
                   </a>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li className="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle"
                     href="#"
                     id="navbarDropdown"
                     role="button"
@@ -71,30 +71,30 @@ const HomePage = () => {
                     Dropdown
                   </a>
 
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Action
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Another action
                       </a>
                     </li>
                     <li>
-                      <hr class="dropdown-divider" />
+                      <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Something else here
                       </a>
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
-                    class="nav-link disabled"
+                    className="nav-link disabled"
                     href="#"
                     tabindex="-1"
                     aria-disabled="true"
@@ -106,25 +106,25 @@ const HomePage = () => {
             </div>
           </div>
         </nav>
-        <div class="d-flex h-100">
+        <div className="d-flex h-100">
           <div
-            class="text-white text-start pb-5 ps-5 mb-5 grid row-gap-3"
+            className="text-white text-start pb-5 ps-5 mb-5 grid row-gap-3"
             style={{ fontFamily: "'Roboto', sans-serif" }}
           >
             <div className="hero-text mb-3 pb-3">
               <h1
-                class="py-2 mb-3 display-1"
+                className="py-2 mb-3 display-1"
                 id="hero-text"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 We are silencing abuse
               </h1>
-              <div class="py-2 fs-5">
+              <div className="py-2 fs-5">
                 Let's put an end to psychlogical abuse together
               </div>
             </div>
 
-            <a class="btn btn-outline-light btn-lg" href="#!" role="button">
+            <a className="btn btn-outline-light btn-lg" href="#!" role="button">
               Learn More
             </a>
           </div>
@@ -199,13 +199,13 @@ const HomePage = () => {
             bg={false} // Card without background
             buttonStyle="no-bkg-btn"
             buttonText="Read more"
-            
+
           />
         </div>
       </div>
 
       <div className="text-section">
-        <h1 class="p-5" style={{ backgroundColor: '#DDE8CF', fontFamily: "'Playfair Display', serif" }}>
+        <h1 className="p-5" style={{ backgroundColor: '#DDE8CF', fontFamily: "'Playfair Display', serif" }}>
           Almost half of all women and men in the US have experienced
           psychological aggression by an intimate partner in their lifetime.
         </h1>
@@ -253,7 +253,7 @@ const HomePage = () => {
         />
       </div>
       
-      <a class="btn btn-outline-dark btn-lg mb-5" href="#!" role="button">
+      <a className="btn btn-outline-dark btn-lg mb-5" href="#!" role="button">
         Get inspired
       </a>
 
@@ -261,7 +261,7 @@ const HomePage = () => {
     <div className="row">
       <div className="col-md-7 " style={{ backgroundColor: '#FFAF5F' }}>
         <div className="text-left inspired">
-          <h1 class="text-dark mt-5" style={{ fontFamily: "'Playfair Display', serif" }}>
+          <h1 clasNames="text-dark mt-5" style={{ fontFamily: "'Playfair Display', serif" }}>
             We are women who are passionate about understanding and
             preventing psychological abuse. Together, we can make a real
             difference.

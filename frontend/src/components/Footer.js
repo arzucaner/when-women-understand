@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
           <div className="col-md-2 text-center">
           <a
-              class="navbar-brand d-flex flex-column fw-bold"
+              className="navbar-brand d-flex flex-column fw-bold"
               href="#"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
@@ -23,36 +23,36 @@ const Footer = () => {
           <div className="col-md-2 text-center">
             <h5>Support</h5>
             <ul>
-              <ol><a class="footer-a" href="#">Crisis Chat</a></ol>
-              <ol><a href="#">24/7 helpline</a></ol>
-              <ol><a href="#">Emergency resources</a></ol>
-              <ol><a href="#">Find a shelter</a></ol>
+              <li><a className="footer-a" href="#">Crisis Chat</a></li>
+              <li><a href="#">24/7 helpline</a></li>
+              <li><a href="#">Emergency resources</a></li>
+              <li><a href="#">Find a shelter</a></li>
             </ul>
           </div>
           <div className="col-md-2 text-center">
             <h5>Resources</h5>
             <ul>
-            <ol><a href="#">Emotional guides</a></ol>
-            <ol><a href="#">Statistics and reports</a></ol>
-            <ol><a href="#">Emergency resources</a></ol>
-            <ol><a href="#">Find a shelter</a></ol>
+            <li><a href="#">Emotional guides</a></li>
+            <li><a href="#">Statistics and reports</a></li>
+            <li><a href="#">Emergency resources</a></li>
+            <li><a href="#">Find a shelter</a></li>
             </ul>
           </div>
           <div className="col-md-2 text-center">
             <h5>Community</h5>
             <ul>
-            <ol><a href="#">Survivor stories</a></ol>
-            <ol><a href="#">Support groups</a></ol>
-            <ol><a href="#">Volunteer groups</a></ol>
-            <ol><a href="#">Local support</a></ol>
+            <li><a href="#">Survivor stories</a></li>
+            <li><a href="#">Support groups</a></li>
+            <li><a href="#">Volunteer groups</a></li>
+            <li><a href="#">Local support</a></li>
             </ul>
           </div>
           <div className="col-md-2">
             <h5>Learn More</h5>
             <ul>
-            <ol><a href="#">What is psychlogical abuse?</a></ol>
-            <ol><a href="#">Signs of abuse</a></ol>
-            <ol><a href="#">Why it matters</a></ol>
+            <li><a href="#">What is psychlogical abuse?</a></li>
+            <li><a href="#">Signs of abuse</a></li>
+            <li><a href="#">Why it matters</a></li>
             </ul>
           </div>
         </div>
