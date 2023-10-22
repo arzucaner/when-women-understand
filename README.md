@@ -1,5 +1,9 @@
 # when-women-understand
-The "When Women Understand" project empowers women to recognize and combat physical and psychological abuse, addressing its hidden nature. Designed for Women Who Code Hackathon Social Good 2023 
+The "When Women Understand" project empowers women to recognize and combat physical and psychological abuse, addressing its hidden nature. Designed for Women Who Code Hackathon Social Good 2023
+
+![Workmark white](https://github.com/arzucaner/when-women-understand/assets/108270415/e331da08-ea6b-4524-9e1a-da19416c7260)
+
+
 
 ## Project Description
 The "When Women Understand" project is a website design initiative aimed at helping women recognize not only physical violence but also psychological abuse, 
