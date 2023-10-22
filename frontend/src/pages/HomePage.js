@@ -146,34 +146,34 @@ const HomePage = () => {
           image="Jamie's story.jpg"
           title="Jamies's Story"
           description="For years I thought I was losing my mind. My husband was always nice to me and doing thoughtful things for me, but then there were times he would subtly put me down and make me feel like I wasn’t worth anything."
-          link="/destination-page-url"
+          link="/support"
           bg={false} // Card without background
           buttonStyle="read-more-btn"
           buttonText="Read more"
         />
         <ResourceCard
           image="Justine's story.jpg"
-          title="Faith's Story"
+          title="Justine's Story"
           description=" I was being gaslit and love bombed but didn't know what that was. I knew that he was playing mind games with me but didn't understand why."
-          link="/destination-page-url"
+          link="/support"
           bg={false} // Card without background
           buttonStyle="read-more-btn"
           buttonText="Read more"
         />
         <ResourceCard
           image="Kathleen's story.jpg"
-          title="Sofia's Story"
+          title="Kathleen's Story"
           description="It happened so slowly, I didn&rsquo;t realize what was happening to me. It started as a friendship, then a forbidden love affair"
-          link="/destination-page-url"
+          link="/support"
           bg={false} // Card without background
           buttonStyle="read-more-btn"
           buttonText="Read more"
         />
         <ResourceCard
           image="Khadijah's story.jpg"
-          title="Natalia's Story"
+          title="Khadijah's Story"
           description="I sometimes find myself downplaying what happened. I feel the need to explain that I was emotionally/psychologically abused, but never physically."
-          link="/destination-page-url"
+          link="/support"
           bg={false} // Card without background
           buttonStyle="read-more-btn"
           buttonText="Read more"

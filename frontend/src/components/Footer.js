@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container py-4">
         <div className="row">
           <div className="col-md-12">
-            <h1 className="footer-h1 text-left pb-2">You aren't alone</h1>
+            <h1 className="footer-title text-left pb-2">Together, let's empower, support, and heal</h1>
             <hr className="bg-light" />
           </div>
           <div className="col-md-3 text-center">
@@ -34,22 +34,22 @@ const Footer = () => {
             <h4>Support</h4>
             <ul>
               <li>
-                <Link className="footer-a" to="#">
+                <Link className="footer-a" to="/coming">
                   Crisis Chat
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/coming" className="footer-a">
                   24/7 helpline
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/coming" className="footer-a">
                   Emergency resources
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/coming" className="footer-a">
                   Find a shelter
                 </Link>
               </li>
@@ -59,22 +59,22 @@ const Footer = () => {
             <h4>Resources</h4>
             <ul>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/identify" className="footer-a">
                   Emotional guides
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/coming" className="footer-a">
                   Statistics and reports
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/coming" className="footer-a">
                   Emergency resources
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/coming" className="footer-a">
                   Find a shelter
                 </Link>
               </li>
@@ -84,22 +84,22 @@ const Footer = () => {
             <h4>Community</h4>
             <ul>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/support" className="footer-a">
                   Survivor stories
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/coming" className="footer-a">
                   Support groups
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/coming" className="footer-a">
                   Volunteer groups
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/coming" className="footer-a">
                   Local support
                 </Link>
               </li>
@@ -109,17 +109,17 @@ const Footer = () => {
             <h4>Learn More</h4>
             <ul>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/identify" className="footer-a">
                   What is psychlogical abuse?
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/identify" className="footer-a">
                   Signs of abuse
                 </Link>
               </li>
               <li>
-                <Link to="#" className="footer-a">
+                <Link to="/coming" className="footer-a">
                   Why it matters
                 </Link>
               </li>
