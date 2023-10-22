@@ -1,0 +1,44 @@
+.hero-img {
+    height: 600px;
+    align-content: center;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading {
+    color: #1F3B21;
+    font-family: Playfair Display;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.07rem;
+    width: 68.25rem;
+    margin-bottom: 3rem;
+}
+
+.hero {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.mission-statement {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 5rem;
+    background: #FFAF5F;
+}
+
+.mission-statement-text {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.volunteer {
+    background: #DDE8CF;
+    color: #213321
+}
