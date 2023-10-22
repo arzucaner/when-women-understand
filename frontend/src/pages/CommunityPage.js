@@ -4,7 +4,7 @@ import ResourceCard from "../components/shared/ResourceCard";
 import Button from "../components/shared/Button";
 
 const LandingPage = () => {
-  return (
+  return ( 
     <div>
       <Navbar />
       <div className="container-fluid info">
@@ -28,7 +28,7 @@ const LandingPage = () => {
           </p>
         </div>
         <h2>Find Your Tribe</h2>
-        <h4>
+        <h4> 
           Discover a safe space to share experiences, connect with understanding
           peers, and learn essential coping strategies. In our support groups,
           you'll find your tribe and a nurturing environment for healing.
