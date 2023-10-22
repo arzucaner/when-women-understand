@@ -40,7 +40,7 @@ fostering a sense of unity in addressing it.
 - JavaScript: A core technology used to enhance interactivity and functionality, enabling the creation of dynamic user interfaces and a smooth user experience.
 - React: Employed to build the website's front end, offering a component-based structure that simplifies development and maintains consistency in design and functionality.
 - Bootstrap: Leveraged for its responsive design framework, ensuring a user-friendly and visually appealing website that is accessible across various devices and screen sizes.
-- Passage by 1Password: Passage is a user authentication tool designed to simplify and enhance the authentication process for developers and end-users. It offers an improved user experience with biometric authentication and strong two-factor security, while also simplifying the implementation process for developers.
+- Passage by 1Password:(https://passage.1password.com) Passage is a user authentication tool designed to simplify and enhance the authentication process for developers and end-users. It offers an improved user experience with biometric authentication and strong two-factor security, while also simplifying the implementation process for developers.
 
 
 ## 🚀Getting Started
