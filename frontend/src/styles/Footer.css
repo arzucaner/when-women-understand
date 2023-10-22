@@ -27,3 +27,13 @@ img {
   text-decoration: none !important;
   text-align: center !important;
 }
+
+.footer-title{
+  color: #FAF8F6;
+
+font-family: Playfair Display;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}

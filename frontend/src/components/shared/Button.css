@@ -51,3 +51,21 @@
   background-color: #fff; /* Change the background color on hover */
   color: #000 !important; /* Change the text color on hover to dark */
 }
+
+
+.transparent-btn{
+
+    background-color: red;
+    color: #dde8cf;
+    border-radius: 0.5rem;
+    font-size: larger;
+    padding: 0.5rem;
+    margin: 2rem;
+    border-color: #1F3B21;
+
+} 
+
+.transparent-btn:hover {
+    background-color:#213321 ;
+    color: #fff;
+  }

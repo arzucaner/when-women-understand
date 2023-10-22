@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container py-4">
         <div className="row">
           <div className="col-md-12">
-            <h1 className="footer-h1 text-left pb-2">You aren't alone</h1>
+            <h1 className="footer-title text-left pb-2">Together, let's empower, support, and heal</h1>
             <hr className="bg-light" />
           </div>
           <div className="col-md-3 text-center">
