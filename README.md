@@ -39,7 +39,7 @@ The project solution aims to address the prevalent issue of psychological abuse 
 To get this project up and running on your local machine, follow these steps:
 
 1. Clone the project repository to your local machine.
-2. Install the required dependencies using the package manager of your choice.
+2. Install the required dependencies using the package manager of your choice.  Note that there are two locations from which to do this: the root directory and in the frontend file.
 3. Configure the project according to your needs.
 4. Start the project by running the appropriate command.
 5. You're ready to start working on the project.
