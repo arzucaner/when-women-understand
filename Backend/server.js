@@ -1,6 +1,6 @@
 //Dependencies
-const app = express();
 const express = require("express");
+const app = express();
 const MongoStore = require("connect-mongo")(session);
 const Passage = require("@passageidentity/passage-node");
 const session = require("express-session");
@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8000;
 
 //Routes
 const connectDB = require("./config/db");
-const discussionRoutes = require("./routes/discussion");
+const commentRoutes = require("./routes/comment");
 const postRoutes = require("./routes/post");
 
 //Use .env file in config folder
@@ -64,7 +64,7 @@ app.use(
 
 //Setup Routes For Which The Server Is Listening
 app.use("/post", postRoutes);
-app.use("/discussion", discussionRoutes);
+app.use("/comment", commentRoutes);
 
 //Log server running
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

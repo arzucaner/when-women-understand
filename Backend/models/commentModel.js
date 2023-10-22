@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 
-const DiscussionSchema = new mongoose.Schema({
+const CommentSchema = new mongoose.Schema({
   username: {
     type: String,
     required: true,
   },
-  discussion: {
+  comment: {
     type: String,
     required: false,
   },
@@ -23,6 +23,6 @@ const DiscussionSchema = new mongoose.Schema({
   },
 });
 
-const Discussion = mongoose.model("DiscussionSchema", DiscussionSchema);
+const Comment = mongoose.model("CommentSchema", CommentSchema);
 
-module.exports = Discussion;
+module.exports = Comment;

@@ -9,9 +9,9 @@ const PostSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
-  discussion: {
+  comment: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "Discussion",
+    ref: "Comment",
   },
   createdAt: {
     type: Date,
