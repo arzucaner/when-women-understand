@@ -6,6 +6,7 @@ import RegistrationPage from "./pages/RegistrationPage";
 import AboutUsPage from "./pages/AboutUsPage";
 import Dashboard from "./pages/Dashboard";
 import IdentifyPage from "./pages/IdentifyPage";
+import SupportPage from "./pages/SupportPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
@@ -19,6 +20,8 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/identify" element={<IdentifyPage />}></Route>
         <Route path="/about-us" element={<AboutUsPage />} />
+        <Route path="/support" element={<SupportPage />}></Route>
+
       </Routes>
     </div>
   );
