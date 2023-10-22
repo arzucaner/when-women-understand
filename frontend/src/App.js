@@ -8,6 +8,8 @@ import Dashboard from "./pages/Dashboard";
 import IdentifyPage from "./pages/IdentifyPage";
 import SupportPage from "./pages/SupportPage";
 import ComingSoonPage from "./pages/ComingSoonPage";
+import DiscussionPage from "./pages/DiscussionPage";
+import NewDiscussionPage from "./pages/NewDiscussionPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
@@ -21,13 +23,14 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/identify" element={<IdentifyPage />}></Route>
         <Route path="/about-us" element={<AboutUsPage />} />
- main
+        main
         <Route path="/support" element={<SupportPage />} />
         <Route path="/coming" element={<ComingSoonPage />} />
-=======
+        =======
         <Route path="/support" element={<SupportPage />}></Route>
- main
-
+        main
+        <Route path="/discussions" element={<DiscussionPage />} />
+        <Route path="/new-discussion" element={<NewDiscussionPage />} />
       </Routes>
     </div>
   );
