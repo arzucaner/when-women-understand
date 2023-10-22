@@ -3,6 +3,8 @@ The "When Women Understand" project empowers women to recognize and combat physi
 
 ![Workmark white](https://github.com/arzucaner/when-women-understand/assets/108270415/e331da08-ea6b-4524-9e1a-da19416c7260)
 
+[Hackathon for Social Good 2023 Project Brief.pdf](https://github.com/arzucaner/when-women-understand/files/13062130/Hackathon.for.Social.Good.2023.Project.Brief.pdf)
+
 
 
 ## Project Description
