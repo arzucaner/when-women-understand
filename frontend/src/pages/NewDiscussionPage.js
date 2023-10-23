@@ -25,7 +25,7 @@ const NewDiscussionPage = () => {
                       <option selected>User's name</option>
                       <option value="anon">Anonymous</option>
                     </select>
-                    <svg
+                    <svg className="discussion-svg"
                       xmlns="http://www.w3.org/2000/svg"
                       width="32"
                       height="32"
