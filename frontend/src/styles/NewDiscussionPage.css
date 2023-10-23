@@ -46,7 +46,7 @@ border: 1px solid #A5B1A6;
 
 
 
-  svg {
+  svg.new-discussions {
     position: absolute;
     top: 50%; 
     right: 10px;
