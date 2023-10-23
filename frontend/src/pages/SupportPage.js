@@ -162,7 +162,7 @@ const SupportPage = () => {
         </p>
       </div>
 
-      <div>
+      {/* <div>
         <div class="row text-left">
           <div class="col-md-6 p-4 ">
             <div class="container support-box d-flex flex-column align-items-start">
@@ -233,7 +233,7 @@ const SupportPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="container-fluid text-center p-5">
         <button className="btn btn-outline-dark btn-lg mb-5" type="button">
