@@ -41,7 +41,7 @@ const HomePage = () => {
             <Button
               title="Learn More"
               style="btn btn-outline-light"
-              link="#!"
+              link="support"
             />
           </div>
         </div>
@@ -60,7 +60,7 @@ const HomePage = () => {
             image="learn.jpg"
             title="Learn"
             description="Being able to identify that there is an issue is an important first step. Learn more about psychological abuse and how to identify it."
-            link="/destination-page-url" // TODO:Replace with the actual URL
+            link="/identify"
             bg={true} // Card with background
             buttonStyle="learn-more-btn"
             buttonText="Learn More"
@@ -69,7 +69,7 @@ const HomePage = () => {
             image="resource.jpg"
             title="Resources"
             description="Need help? We have a list of resources to help you get started."
-            link="/destination-page-url" // TODO:Replace with the actual URL
+            link="/coming"
             bg={true} // Card with background
             buttonStyle="learn-more-btn"
             buttonText="Learn More"
@@ -78,7 +78,7 @@ const HomePage = () => {
             image="community.jpg"
             title="Community"
             description="Knowing that you are not alone in this journey is the first step to healing. Find a community of survivors and supporters to help you through this difficult time."
-            link="/destination-page-url" // TODO:Replace with the actual URL
+            link="/discussions"
             bg={true} // Card with background
             buttonStyle="learn-more-btn"
             buttonText="Learn More"
@@ -95,7 +95,7 @@ const HomePage = () => {
             image="Identify abuse.jpg"
             title="Identify the abuse"
             description="The first step to healing is to identify the abuse. Learn more about how to identify psychological abuse."
-            // link="/destination-page-url" // TODO:Replace with the actual URL
+            link="/identify"
             bg={false} // Card without background
             buttonStyle="no-bkg-btn"
             buttonText="Read more"
@@ -104,7 +104,7 @@ const HomePage = () => {
             image="Get Help.jpg"
             title="Get help"
             description="You are not alone. There are many resources available to help you."
-            link="/destination-page-url" // TODO:Replace with the actual URL
+            link="/support"
             bg={false} // Card without background
             buttonStyle="no-bkg-btn"
             buttonText="Read more"
@@ -113,7 +113,7 @@ const HomePage = () => {
             image="Heal.jpg"
             title="Heal"
             description="Healing is a journey. Find a community of survivors and supporters to help you through this difficult time."
-            link="/destination-page-url"
+            link="/discussions"
             bg={false} // Card without background
             buttonStyle="no-bkg-btn"
             buttonText="Read more"
@@ -173,18 +173,18 @@ const HomePage = () => {
           image="Khadijah's story.jpg"
           title="Khadijah's Story"
           description="I sometimes find myself downplaying what happened. I feel the need to explain that I was emotionally/psychologically abused, but never physically."
-          link="/support"
+          link="/support#Khadijah"
           bg={false} // Card without background
           buttonStyle="read-more-btn"
           buttonText="Read more"
         />
       </div>
 
-      <div className="text-center">
+      {/* <div className="text-center">
         <button className="btn btn-outline-dark btn-lg mb-5" type="button">
           Get inspired
         </button>
-      </div>
+      </div> */}
 
       <div className="container pb-4 text-center">
         <div className="row">
@@ -198,7 +198,12 @@ const HomePage = () => {
                 preventing psychological abuse. Together, we can make a real
                 difference.
               </h1>
-              <button className="green-btn">Volunteer</button>
+              
+              <Button
+              title="Learn More"
+              style="give-back-btn btn-outline-dark btn-lg mb-5t"
+              link="coming"
+            />
             </div>
           </div>
           <div className="col-md-5 pl-0">

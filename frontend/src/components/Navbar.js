@@ -120,12 +120,16 @@ export const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav align-content-center nav-list">
-            <li className="nav-item dropdown">
+          
+          
+            {/* <li className="nav-item dropdown">
               <a className="nav-link" aria-current="page" href="#">
                 Get Help
               </a>
-            </li>
-            <li className="nav-item dropdown">
+            </li> */}
+
+
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -143,8 +147,8 @@ export const Navbar = () => {
                   />
                 ))}
               </ul>
-            </li>
-            <li className="nav-item dropdown">
+            </li> */}
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -162,8 +166,13 @@ export const Navbar = () => {
                   />
                 ))}
               </ul>
+            </li> */}
+            <li className="nav-item">
+              <Link to="/coming" className="nav-link">
+                Resources
+              </Link>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -181,8 +190,14 @@ export const Navbar = () => {
                   />
                 ))}
               </ul>
+            </li> */}
+
+<li className="nav-item">
+              <Link to="/support" className="nav-link">
+                Stories
+              </Link>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -200,8 +215,14 @@ export const Navbar = () => {
                   />
                 ))}
               </ul>
+            </li> */}
+
+<li className="nav-item">
+              <Link to="/identify" className="nav-link">
+                Identify Abuse
+              </Link>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -219,6 +240,12 @@ export const Navbar = () => {
                   />
                 ))}
               </ul>
+            </li> */}
+
+<li className="nav-item">
+              <Link to="/about-us" className="nav-link">
+                Who We Are
+              </Link>
             </li>
           </ul>
         </div>
@@ -229,4 +256,3 @@ export const Navbar = () => {
     </nav>
   );
 };
-
