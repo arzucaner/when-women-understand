@@ -3,8 +3,9 @@
   color: #dde8cf;
   border-radius: 0.5rem;
   font-size: larger;
-  padding: 0.5rem;
+  padding: 0.5rem ;
   margin: 2rem;
+  
 }
 
 .green-btn:hover {
@@ -32,7 +33,7 @@
 
 .no-bkg-btn {
   background-color: transparent;
-  color: #000000;
+  color: #213321;
   border: none;
 }
 
@@ -54,9 +55,8 @@
 
 
 .transparent-btn{
-
-    background-color: red;
-    color: #dde8cf;
+    background-color: transparent;
+    color: #1F3B21;
     border-radius: 0.5rem;
     font-size: larger;
     padding: 0.5rem;

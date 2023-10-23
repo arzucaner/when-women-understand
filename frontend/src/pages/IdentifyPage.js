@@ -105,7 +105,7 @@ const ResourcePage = () => {
 
         <div>
           <div className="container">
-            <div className="sign-section m-0">
+            <div className="sign-section m-0 mb-4">
               <div className="row">
                 <div className="col-md-6">
                   <ul>
@@ -201,27 +201,7 @@ const ResourcePage = () => {
             </div>
           </div>
 
-          <h2>Find Your Tribe</h2>
-          <h4>
-            Discover a safe space to share experiences, connect with
-            understanding peers, and learn essential coping strategies. In our
-            support groups, you'll find your tribe and a nurturing environment
-            for healing.
-          </h4>
-          <div className="resource-section">
-            <ResourceCard />
-            <ResourceCard />
-            <ResourceCard />
-            <ResourceCard />
-          </div>
-        </div>
-        <Button />
-        <Hero />
-        <h2>Finding Help Nearby</h2>
-        <h4>
-          Find shelters, helplines, and nearby assistance. We're here to connect
-          with you with the help you need.
-        </h4>
+         </div>
         <Footer />
       </div>
     </>
