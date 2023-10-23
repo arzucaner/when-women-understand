@@ -9,7 +9,7 @@ const TEAM = [
   {
     name: "Arzu Caner",
     title: "Team Lead",
-    img: "/arzu.png",
+    img: "/arzu.jpg",
   },
   {
     name: "Maryna Kosau",
