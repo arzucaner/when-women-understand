@@ -31,6 +31,7 @@ const NewDiscussionPage = () => {
                       height="32"
                       viewBox="0 0 32 32"
                       fill="none"
+                      className="new-discussions"
                     >
                       <path
                         d="M9.33464 13.3333L16.0013 20L22.668 13.3333"
