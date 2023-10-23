@@ -1,10 +1,63 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import { Navbar } from "../components/Navbar";
 import { Link } from "react-router-dom";
 import NewDiscussionPage from "./NewDiscussionPage";
 import "../styles/DiscussionPage.css";
+import axios from "axios";
+import DiscussionCard from "../components/DiscussionCard";
+const DISCUSSIONS = [
+  {
+    user: "anon",
+    post: "discussion title",
+    createdAt: "12/03/2023",
+    comment: "comment",
+    answer: "discussion body content",
+  },
+  {
+    user: "anon",
+    post: "discussion title",
+    createdAt: "12/03/2023",
+    comment: "comment",
+    answer: "discussion body content",
+  },
+  {
+    user: "anon",
+    post: "discussion title",
+    createdAt: "12/03/2023",
+    comment: "comment",
+    answer: "discussion body content",
+  },
+  {
+    user: "anon",
+    post: "discussion title",
+    createdAt: "12/03/2023",
+    comment: "comment",
+    answer: "discussion body content",
+  },
+];
 
 const DiscussionPage = () => {
+  // const [posts, setPosts] = useState([])
+  // useEffect(() => {
+  //   axios
+  //     .get('http://localhost:3000/discussions')
+  //     .then((response) => {
+  //       const postsList = response.data.map((post) => {
+  //         return {
+  //           id: post._id,
+  //           title: post.title,
+  //           description: post.post,
+  //           isComplete: post.is_complete,
+  //         };
+  //       });
+  //       setPosts(postsList);
+  //     })
+  //     .catch(() => {
+  //       console.log('This request could not go through');
+  //     });
+  // }, []);
+
   return (
     <>
       <Navbar />
@@ -68,7 +121,14 @@ const DiscussionPage = () => {
           ></div>
         </section>
         <section className="d-flex">
-          <div className="featured-header">Featured Discussions</div>
+          <div className="featured-posts">
+            <div className="featured-header">Featured Discussions</div>
+            <div className="featured-posts-content">
+              {DISCUSSIONS.map((discussion) => {
+                return <DiscussionCard discussion={discussion} />;
+              })}
+            </div>
+          </div>
           <Link to="/new_discussion">
             <button>Start a discussion</button>
           </Link>
