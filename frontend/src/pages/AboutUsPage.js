@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "../components/Navbar";
 import TeamInfoCard from "../components/TeamInfoCard";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 import "../styles/AboutUs.css";
 
@@ -126,16 +127,14 @@ const AboutUsPage = () => {
           Make a meaningful impact by moderating groups, organizing events, and
           more. Your support matters.
         </p>
-        <button
-          className="btn"
-          style={{
-            fontFamily: "Roboto, san-serif",
-            backgroundColor: "#1F3B21",
-            color: "#FAF8F6",
-          }}
-        >
-          Become a volunteer
-        </button>
+        <Link to="/coming">
+          <button
+            className="give-back-btn btn-outline-dark btn-lg mb-5"
+            type="button"
+          >
+            Become a volunteer
+          </button>
+        </Link>
       </section>
       <Footer />
     </div>

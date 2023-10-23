@@ -3,6 +3,7 @@ import Button from "../components/shared/Button";
 import { Navbar } from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/SupportPage.css";
+import { Link } from "react-router-dom";
 
 const SupportPage = () => {
   return (
@@ -40,9 +41,15 @@ const SupportPage = () => {
                 create change.
               </div>
             </div>
-            <button className="btn btn-outline-dark btn-lg mb-5" type="button">
-              Explore popular discussions
-            </button>
+
+            <Link to="/discussions">
+              <button
+                className="btn btn-outline-dark btn-lg mb-5"
+                type="button"
+              >
+                Explore popular discussions
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -51,107 +58,136 @@ const SupportPage = () => {
         <h2>Featured Stories</h2>
       </div>
 
+      <div className="stories-container">
+        <div className="container featured-story p-5 m-5">
+          <div className="row">
+            <div className="col-md-8">
+              <div className="d-flex flex-column justify-content-between h-100">
+                <div className="text-left">
+                  <p>
+                    “For years I thought I was losing my mind. My husband was
+                    always nice to me and doing thoughtful things for me, but
+                    then there were times he would subtly put me down and make
+                    me feel like I wasn’t worth anything. If I tried to bring up
+                    something he said to me and how it upset me, I was met with
+                    ‘You know I didn’t mean it that way’, ‘I NEVER said anything
+                    like that. Why would you think that I would say something
+                    like that?’, or ‘I think you are just being overly emotional
+                    and your depression/anxiety is making you feel that way’.
+                    Nothing was ever his fault, it was all mine. Even when I
+                    learned of an affair he had, it was my fault because I was
+                    neglecting him emotionally/sexually. Once I got free of the
+                    situation, I was able to see the control for what it was. I
+                    wasn’t losing my mind, I was just living with someone who
+                    tried to chip away my reality and personality.”
+                    <br />
+                    <br />
+                    Jamie
+                    <br />
+                    Survivor of Psychological Abuse
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <img src="/Jamie's story.jpg" alt="featured story" />
+            </div>
+          </div>
+        </div>
 
-      
-<div className="stories-container">
-      <div className="container featured-story p-5 m-5">
-        <div className="row">
-          <div className="col-md-8">
-            <div className="d-flex flex-column justify-content-between h-100">
-              <div className="text-left">
-                <p>
-                “For years I thought I was losing my mind. My husband was always nice to me and doing thoughtful things for me, but then there were times he would subtly put me down and make me feel like I wasn’t worth anything. If I tried to bring up something he said to me and how it upset me, I was met with ‘You know I didn’t mean it that way’, ‘I NEVER said anything like that. Why would you think that I would say something like that?’, or ‘I think you are just being overly emotional and your depression/anxiety is making you feel that way’. Nothing was ever his fault, it was all mine. Even when I learned of an affair he had, it was my fault because I was neglecting him emotionally/sexually. Once I got free of the situation, I was able to see the control for what it was. I wasn’t losing my mind, I was just living with someone who tried to chip away my reality and personality.”
-<br/>
-<br/>
- Jamie
-<br/>
-              Survivor of Psychological Abuse 
- 
-                </p>
+        <div className="container featured-story p-5 m-5">
+          <div className="row">
+            <div className="col-md-4">
+              <img src="/Justine's story.jpg" alt="featured story" />
+            </div>
+            <div className="col-md-8">
+              <div className="d-flex flex-column justify-content-between h-100">
+                <div className="text-left">
+                  <p>
+                    "I didn't understand what was happening until I started
+                    googling my ex's bizarre behaviors and the subject of
+                    narcissism kept popping up. I was being gaslit and love
+                    bombed but didn't know what that was. I knew that he was
+                    playing mind games with me but didn't understand why. This
+                    all happened within the first year. Then there [were] the
+                    anger rages. That was another confusing behavior. After that
+                    I discovered the porn addiction and texting strange women. I
+                    was on and off for three years while trying to figure out
+                    what was happening and trying to make sense of it all. I was
+                    lucky the abuse never turned physical because I believe he
+                    was very capable of inflicting great harm. Then the discard
+                    begin. I finally ended it first and went 100% no contact
+                    because by then I had become educated on the subject."
+                    <br />
+                    <br />
+                    Justine
+                    <br />
+                    Survivor of Psychological Abuse
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4">
-          <img src="/Jamie's story.jpg" alt="featured story" />
+        </div>
 
+        <div className="container featured-story p-5 m-5">
+          <div className="row">
+            <div className="col-md-8">
+              <div className="d-flex flex-column justify-content-between h-100">
+                <div className="text-left">
+                  <p>
+                    "It happened so slowly, I didn’t realize what was happening
+                    to me. It started as a friendship, then a forbidden love
+                    affair ( he was married) then as time went on, he would
+                    criticize me. Then discard me , drag me back in and repeat.
+                    He [said he] got a divorce ect ect. After 10 years of mental
+                    abuse, I could see I was disappearing as a person. That’s
+                    when I left... Been divorced 6 years. I’m staying single due
+                    to me enjoying the peace in my life now."
+                    <br />
+                    <br />
+                    Kathleen
+                    <br />
+                    Survivor of Psychological Abuse
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <img src="/Kathleen's story.jpg" alt="featured story" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="container featured-story p-5 m-5">
-        <div className="row">
-        <div className="col-md-4">
-            <img src="/Justine's story.jpg" alt="featured story" />
-          </div>
-          <div className="col-md-8">
-            <div className="d-flex flex-column justify-content-between h-100">
-              <div className="text-left">
-                <p>
-                "I didn't understand what was happening until I started googling my ex's bizarre behaviors and the subject of narcissism kept popping up. I was being gaslit and love bombed but didn't know what that was. I knew that he was playing mind games with me but didn't understand why. This all happened within the first year. Then there [were] the anger rages. That was another confusing behavior. After that I discovered the porn addiction and texting strange women. I was on and off for three years while trying to figure out what was happening and trying to make sense of it all. I was lucky the abuse never turned physical because I believe he was very capable of inflicting great harm. Then the discard begin. I finally ended it first and went 100% no contact because by then I had become educated on the subject."
-                <br/>
-<br/>
- Justine
-<br/>
-              Survivor of Psychological Abuse 
-                </p>
+        <div className="container featured-story p-5 m-5">
+          <div className="row">
+            <div className="col-md-4">
+              <img src="/Khadijah's story.jpg" alt="featured story" />
+            </div>
+            <div className="col-md-8">
+              <div className="d-flex flex-column justify-content-between h-100">
+                <div id="Khadijah" className="text-left">
+                  <p>
+                    “I sometimes find myself downplaying what happened. I feel
+                    the need to explain that I was emotionally/psychologically
+                    abused, but never physically. I am working on changing that
+                    narative in myself. Just because this type of abuse doesn’t
+                    leave a bruise doesn’t mean it didn’t leave a mark on me.
+                    Abuse of any form is wrong and just because you were not hit
+                    doesn’t mean you don’t have the right to step forward and
+                    speak your truth.”
+                    <br />
+                    <br />
+                    Khadijah
+                    <br />
+                    Survivor of Psychological Abuse
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
-
-      <div className="container featured-story p-5 m-5">
-        <div className="row">
-          <div className="col-md-8">
-            <div className="d-flex flex-column justify-content-between h-100">
-              <div className="text-left">
-                <p>
-                "It happened so slowly, I didn’t realize what was happening to me. It started as a friendship, then a forbidden love affair ( he was married) then as time went on, he would criticize me. Then discard me , drag me back in and repeat. He [said he] got a divorce ect ect. After 10 years of mental abuse, I could see I was disappearing as a person. That’s when I left... Been divorced 6 years. I’m staying single due to me enjoying the peace in my life now."
-                <br/>
-<br/>
- Kathleen
-<br/>
-              Survivor of Psychological Abuse 
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <img src="/Kathleen's story.jpg" alt="featured story" />
-          </div>
-        </div>
-      </div>
-
-      <div className="container featured-story p-5 m-5">
-        <div className="row">
-        <div className="col-md-4">
-            <img src="/Khadijah's story.jpg" alt="featured story" />
-          </div>
-          <div className="col-md-8">
-            <div className="d-flex flex-column justify-content-between h-100">
-              <div className="text-left">
-                <p>
-                “I sometimes find myself downplaying what happened. I feel the need to explain that I was emotionally/psychologically abused, but never physically. I am working on changing that narative in myself. Just because this type of abuse doesn’t leave a bruise doesn’t mean it didn’t leave a mark on me. Abuse of any form is wrong and just because you were not hit doesn’t mean you don’t have the right to step forward and speak your truth.”
-                <br/>
-<br/>
- Khadijah
-<br/>
-              Survivor of Psychological Abuse 
-                </p>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-
-      
-
-
-</div>
-
-
 
       <div className="tribe text-center p-5">
         <div class="tribe-text-title">Find your tribe</div>
@@ -236,19 +272,30 @@ const SupportPage = () => {
       </div> */}
 
       <div className="container-fluid text-center p-5">
-        <button className="btn btn-outline-dark btn-lg mb-5" type="button">
-          Start a discussion
-        </button>
+        <Link to="/discussions">
+          <button className="btn btn-outline-dark btn-lg mb-5" type="button">
+            Start a discussion
+          </button>
+        </Link>
       </div>
 
       <div class="give-back-container text-center">
-  <h2 className="give-back-title">Give back make an impact</h2>
-  <p className="give-back-text">Make a meaningful impact by moderating groups, organizing events, and more. Your support matters.</p>
-  <button className="give-back-btn btn-outline-dark btn-lg mb-5" type="button">Become a volunteer</button>
-</div>
+        <h2 className="give-back-title">Give back make an impact</h2>
+        <p className="give-back-text">
+          Make a meaningful impact by moderating groups, organizing events, and
+          more. Your support matters.
+        </p>
 
+        <Link to="/coming">
+          <button
+            className="give-back-btn btn-outline-dark btn-lg mb-5"
+            type="button"
+          >
+            Become a volunteer
+          </button>
+        </Link>
+      </div>
 
-      
       <Footer />
     </>
   );
