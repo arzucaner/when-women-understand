@@ -9,6 +9,7 @@
     "dev": "concurrently \"nodemon Backend/server.js\" \"npm run client\""
   },
   "dependencies": {
+    "@passageidentity/passage-node": "^2.6.0",
     "@passageidentity/passage-react": "^0.5.0",
     "axios": "^1.5.1",
     "cloudinary": "^1.41.0",

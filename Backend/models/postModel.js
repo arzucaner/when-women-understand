@@ -5,6 +5,10 @@ const PostSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  answer: {
+    type: String,
+    required: false,
+  },
   comment: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Comment",
@@ -19,6 +23,6 @@ const PostSchema = new mongoose.Schema({
   },
 });
 
-const Post = mongoose.model("Post", PostSchema);
+const Post = mongoose.model("PostSchema", PostSchema);
 
 module.exports = Post;

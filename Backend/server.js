@@ -1,17 +1,17 @@
 //Dependencies
 const express = require("express");
 const app = express();
-const session = require("express-session");
-const MongoStore = require("connect-mongo");
+const MongoStore = require("connect-mongo")(session);
 const Passage = require("@passageidentity/passage-node");
+const session = require("express-session");
+
+//Port
+const PORT = process.env.PORT || 8000;
 
 //Routes
 const connectDB = require("./config/db");
 const commentRoutes = require("./routes/comment");
 const postRoutes = require("./routes/post");
-
-//Port
-const PORT = process.env.PORT || 8000;
 
 //Use .env file in config folder
 require("dotenv").config({ path: "./config/.env" });
@@ -58,7 +58,7 @@ app.use(
     secret: "keyboard cat",
     resave: false,
     saveUninitialized: false,
-    store: MongoStore.create({ mongooseConnection: mongoose.connection }),
+    store: new MongoStore({ mongooseConnection: mongoose.connection }),
   })
 );
 
