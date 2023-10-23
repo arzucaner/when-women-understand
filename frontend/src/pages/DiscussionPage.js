@@ -6,6 +6,7 @@ import NewDiscussionPage from "./NewDiscussionPage";
 import "../styles/DiscussionPage.css";
 import axios from "axios";
 import DiscussionCard from "../components/DiscussionCard";
+
 const DISCUSSIONS = [
   {
     user: "anon",
@@ -108,30 +109,32 @@ const DiscussionPage = () => {
           <div
             className="container-fluid bg-image"
             style={{
-              background: `url('/About_Us.png'), lightgray 50% / cover no-repeat`,
-              width: "32.5rem",
+              background: `url('./Discussions page.jpg') no-repeat center center / cover`,
+              width: "47.5rem",
               height: "21.5rem",
               alignContent: "center",
               alignSelf: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-              backgroundSize: "cover",
               marginBottom: "6.5rem",
             }}
           ></div>
         </section>
-        <section className="d-flex">
-          <div className="featured-posts">
+        <section className="d-flex flex-column">
+          <div className="featured-posts d-flex justify-content-between align-items-center">
             <div className="featured-header">Featured Discussions</div>
-            <div className="featured-posts-content">
-              {DISCUSSIONS.map((discussion) => {
-                return <DiscussionCard discussion={discussion} />;
-              })}
+
+            <Link to="/new-discussion">
+              <button className="transparent-btn">Start a discussion</button>
+            </Link>
+          </div>
+          <div>
+            <div className="d-flex flex-column">
+              <div className="featured-posts-content">
+                {DISCUSSIONS.map((discussion) => {
+                  return <DiscussionCard discussion={discussion} />;
+                })}
+              </div>
             </div>
           </div>
-          <Link to="/new_discussion">
-            <button>Start a discussion</button>
-          </Link>
         </section>
       </div>
     </>

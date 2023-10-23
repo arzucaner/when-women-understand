@@ -69,3 +69,18 @@
     background-color:#213321 ;
     color: #fff;
   }
+
+  .comment-btn{
+    border-radius: 62500rem;
+    background: #F2EDE7;
+    display: flex;
+padding: 0.25rem 0.75rem;
+justify-content: center;
+align-items: center;
+gap: 0.375rem;
+text-decoration: none;
+  }
+
+  .no-underline {
+    text-decoration: none; /* Removes underline from the link */
+  }
