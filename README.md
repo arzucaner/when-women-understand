@@ -65,13 +65,14 @@ Thank you for helping make this project better!
 This project was developed by a team of six members. Team members and their contributions are as follows:
 
 Team Members:
-- Arzu Caner (Team Leader)
+- Arzu Caner (Team Leader) I  [GitHub](https://github.com/arzucaner) I [LinkedIn](https://www.linkedin.com/in/arzucaner/)
 - Maryna Kosau (UX Designer)
 - Onyinye Chiatula (UI Designer)
-- Rose Le (Fullstack Engineer)
-- Rachel Ludwig (Fullstack Developer)
-- Sara Swingle (Fullstack Developer)
+- Rose Le (Fullstack Engineer) [GitHub](https://github.com/rose-codes) I [LinkedIn](https://www.linkedin.com/in/rhle/)
+- Rachel Ludwig (Fullstack Developer) [GitHub](https://github.com/Raeludwig) I [LinkedIn](https://www.linkedin.com/in/raeludwig/)
+- Sara Swingle (Fullstack Developer) [GitHub](https://github.com/swingleSara) I [LinkedIn](https://www.linkedin.com/in/swingle-sara/)
 
+  
 We would like to express our gratitude to the entire team for their contributions to our project.
 
 ## 📜License
