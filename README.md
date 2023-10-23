@@ -68,7 +68,7 @@ Team Members:
 - Arzu Caner (Team Leader) I  [GitHub](https://github.com/arzucaner) I [LinkedIn](https://www.linkedin.com/in/arzucaner/)
 - Maryna Kosau (UX Designer)
 - Onyinye Chiatula (UI Designer)
-- Rose Le (Fullstack Engineer)
+- Rose Le (Fullstack Engineer) [GitHub](https://github.com/rose-codes) I [LinkedIn](https://www.linkedin.com/in/rhle/)
 - Rachel Ludwig (Fullstack Developer) [GitHub](https://github.com/Raeludwig) I [LinkedIn](https://www.linkedin.com/in/raeludwig/)
 - Sara Swingle (Fullstack Developer) [GitHub](https://github.com/swingleSara) I [LinkedIn](https://www.linkedin.com/in/swingle-sara/)
 
