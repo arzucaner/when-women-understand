@@ -66,11 +66,11 @@ This project was developed by a team of six members. Team members and their cont
 
 Team Members:
 - Arzu Caner (Team Leader) I  [GitHub](https://github.com/arzucaner) I [LinkedIn](https://www.linkedin.com/in/arzucaner/)
-- Maryna Kosau (UX Designer)
-- Onyinye Chiatula (UI Designer)
+- Maryna Kosau (UX Designer) [Portfolio](https://uxfol.io/marynakosau) I [LinkedIn](https://www.linkedin.com/in/maryna-kosau)
+- Onyinye Chiatula (UI Designer) [LinkedIn]https://www.linkedin.com/in/onyinye-chiatula-64b9931a1/
 - Rose Le (Fullstack Engineer) [GitHub](https://github.com/rose-codes) I [LinkedIn](https://www.linkedin.com/in/rhle/)
-- Rachel Ludwig (Fullstack Developer) [GitHub](https://github.com/Raeludwig) I [LinkedIn](https://www.linkedin.com/in/raeludwig/)
-- Sara Swingle (Fullstack Developer) [GitHub](https://github.com/swingleSara) I [LinkedIn](https://www.linkedin.com/in/swingle-sara/)
+- Rachel Ludwig (Fullstack Developer) [Portfolio](https://raeludwig.github.io/Raes-portfolio/) I [GitHub](https://github.com/Raeludwig) I [LinkedIn](https://www.linkedin.com/in/raeludwig/)
+- Sara Swingle (Fullstack Developer) [Portfolio](http://www.saraswingle.com/) I [GitHub](https://github.com/swingleSara) I [LinkedIn](https://www.linkedin.com/in/swingle-sara/)
 
   
 We would like to express our gratitude to the entire team for their contributions to our project.
