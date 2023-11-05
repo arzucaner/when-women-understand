@@ -76,9 +76,11 @@ Team Members:
 - Rose Le (Fullstack Engineer) [GitHub](https://github.com/rose-codes) I [LinkedIn](https://www.linkedin.com/in/rhle/)
 - Rachel Ludwig (Fullstack Developer) [Portfolio](https://raeludwig.github.io/Raes-portfolio/) I [GitHub](https://github.com/Raeludwig) I [LinkedIn](https://www.linkedin.com/in/raeludwig/)
 - Sara Swingle (Fullstack Developer) [Portfolio](http://www.saraswingle.com/) I [GitHub](https://github.com/swingleSara) I [LinkedIn](https://www.linkedin.com/in/swingle-sara/)
-
   
 We would like to express our gratitude to the entire team for their contributions to our project.
+
+[Team](https://github.com/arzucaner/when-women-understand/assets/108270415/a5bd6e68-b3d5-4547-b1a6-bb475dfd10f0)
+
 
 ## 📜License
 This project is licensed under the MIT License. See the LICENSE file for more information.
