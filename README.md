@@ -79,7 +79,8 @@ Team Members:
   
 We would like to express our gratitude to the entire team for their contributions to our project.
 
-[Team](https://github.com/arzucaner/when-women-understand/assets/108270415/a5bd6e68-b3d5-4547-b1a6-bb475dfd10f0)
+![team](https://github.com/arzucaner/when-women-understand/assets/108270415/9ec19904-640b-42ce-ad81-d6383e79c272)
+
 
 
 ## 📜License
