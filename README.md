@@ -1,5 +1,6 @@
 # when-women-understand
-The "When Women Understand" project empowers women to recognize and combat physical and psychological abuse, addressing its hidden nature. Designed for Women Who Code Hackathon Social Good 2023.
+
+The 'When Women Understand' project, designed for the Women Who Code Hackathon Social Good 2023, has won the "Outstanding Social Impact Award" for empowering women to recognize and combat physical and psychological abuse, addressing its hidden nature.
 
 ![Logo](https://github.com/arzucaner/when-women-understand/assets/108270415/392a8c03-aebb-4982-907f-d3fa1305f86a)
 
