@@ -1,10 +1,18 @@
 # when-women-understand
-The "When Women Understand" project empowers women to recognize and combat physical and psychological abuse, addressing its hidden nature. Designed for Women Who Code Hackathon Social Good 2023.
+
+The 'When Women Understand' project, designed for the Women Who Code Hackathon Social Good 2023, has won the "Outstanding Social Impact Award" for empowering women to recognize and combat physical and psychological abuse, addressing its hidden nature.
 
 ![Logo](https://github.com/arzucaner/when-women-understand/assets/108270415/392a8c03-aebb-4982-907f-d3fa1305f86a)
 
 
 [Hackathon for Social Good 2023 Project Brief.pdf](https://github.com/arzucaner/when-women-understand/files/13062130/Hackathon.for.Social.Good.2023.Project.Brief.pdf)
+
+[Prototype](https://www.youtube.com/watch?v=DYoxoSD74qA)
+
+[When Women Understand Presentation.pdf](https://github.com/arzucaner/when-women-understand/files/13260709/When.Women.Understand.Presentation.pdf)
+
+[Demo](https://www.youtube.com/watch?v=XOcTClDCNPI)
+
 
 
 ## 🌟Project Description
@@ -66,14 +74,17 @@ This project was developed by a team of six members. Team members and their cont
 
 Team Members:
 - Arzu Caner (Team Leader) I  [GitHub](https://github.com/arzucaner) I [LinkedIn](https://www.linkedin.com/in/arzucaner/)
-- Maryna Kosau (UX Designer)
-- Onyinye Chiatula (UI Designer)
+- Maryna Kosau (UX Designer) [Portfolio](https://uxfol.io/marynakosau) I [LinkedIn](https://www.linkedin.com/in/maryna-kosau)
+- Onyinye Chiatula (UI Designer) [LinkedIn](https://www.linkedin.com/in/onyinye-chiatula-64b9931a1/)
 - Rose Le (Fullstack Engineer) [GitHub](https://github.com/rose-codes) I [LinkedIn](https://www.linkedin.com/in/rhle/)
-- Rachel Ludwig (Fullstack Developer) [GitHub](https://github.com/Raeludwig) I [LinkedIn](https://www.linkedin.com/in/raeludwig/)
-- Sara Swingle (Fullstack Developer) [GitHub](https://github.com/swingleSara) I [LinkedIn](https://www.linkedin.com/in/swingle-sara/)
-
+- Rachel Ludwig (Fullstack Developer) [Portfolio](https://raeludwig.github.io/Raes-portfolio/) I [GitHub](https://github.com/Raeludwig) I [LinkedIn](https://www.linkedin.com/in/raeludwig/)
+- Sara Swingle (Fullstack Developer) [Portfolio](http://www.saraswingle.com/) I [GitHub](https://github.com/swingleSara) I [LinkedIn](https://www.linkedin.com/in/swingle-sara/)
   
 We would like to express our gratitude to the entire team for their contributions to our project.
+
+![team](https://github.com/arzucaner/when-women-understand/assets/108270415/9ec19904-640b-42ce-ad81-d6383e79c272)
+
+
 
 ## 📜License
 This project is licensed under the MIT License. See the LICENSE file for more information.
