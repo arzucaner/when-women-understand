@@ -1,9 +1,8 @@
-# when-women-understand
+# When Women Understand
 
-The 'When Women Understand' project, designed for the Women Who Code Hackathon Social Good 2023, has won the "Outstanding Social Impact Award" for empowering women to recognize and combat physical and psychological abuse, addressing its hidden nature.
+"When Women Understand" project, designed for the Women Who Code Hackathon Social Good 2023, has won the "Outstanding Social Impact Award" for empowering women to recognize and combat physical and psychological abuse, addressing its hidden nature.
 
 ![Logo](https://github.com/arzucaner/when-women-understand/assets/108270415/392a8c03-aebb-4982-907f-d3fa1305f86a)
-
 
 [Hackathon for Social Good 2023 Project Brief.pdf](https://github.com/arzucaner/when-women-understand/files/13062130/Hackathon.for.Social.Good.2023.Project.Brief.pdf)
 
@@ -13,24 +12,26 @@ The 'When Women Understand' project, designed for the Women Who Code Hackathon S
 
 [Demo](https://www.youtube.com/watch?v=XOcTClDCNPI)
 
-
-
 ## 🌟Project Description
+
 The "When Women Understand" project is a website design initiative aimed at helping women recognize not only physical violence but also psychological abuse, with the goal of empowering them to protect themselves from such forms of violence. This project underscores the often silent and hidden nature of psychological abuse, making it easy for women to recognize.
 
 ### 🎯Objectives of the Website
+
 📢Creating Awareness: The website is designed to raise awareness among women about the signs and effects of psychological abuse, emphasizing its prevalence.
 ℹ️Providing Information: It offers women information on recognizing psychological abuse, explaining its signs and risk factors, and providing educational resources.
 🤝Offering Support: The website aims to support victims by providing emotional and practical assistance resources and
 contact information.
-🤲Fostering Social Awareness: By promoting the project and using the website as a platform, the goal is to increase societal awareness about the importance of preventing psychological abuse and 
+🤲Fostering Social Awareness: By promoting the project and using the website as a platform, the goal is to increase societal awareness about the importance of preventing psychological abuse and
 fostering a sense of unity in addressing it.
 
-### 🚀Challenge Statement 
+### 🚀Challenge Statement
+
 This project aims to contribute to addressing the silent and often hidden crisis of psychological abuse by empowering women to recognize, combat, and raise awareness about this form of violence, which can be elusive and less visible than physical abuse. We challenge you to create a digital platform that equips women with the knowledge, resources, and support to combat psychological abuse effectively.
 
 ### 🌍How the Project Solution Contributes
-The project solution aims to address the prevalent issue of psychological abuse by providing a digital platform that empowers women to recognize, combat, and raise awareness about this often invisible form of violence. 
+
+The project solution aims to address the prevalent issue of psychological abuse by providing a digital platform that empowers women to recognize, combat, and raise awareness about this often invisible form of violence.
 
 ## 🛠️Used Technologies:
 
@@ -70,21 +71,22 @@ We welcome and appreciate contributions from the community. If you're interested
 Thank you for helping make this project better!
 
 ## 🌟🤝Project Team
+
 This project was developed by a team of six members. Team members and their contributions are as follows:
 
 Team Members:
+
 - Arzu Caner (Team Leader) I  [GitHub](https://github.com/arzucaner) I [LinkedIn](https://www.linkedin.com/in/arzucaner/)
 - Maryna Kosau (UX Designer) [Portfolio](https://uxfol.io/marynakosau) I [LinkedIn](https://www.linkedin.com/in/maryna-kosau)
 - Onyinye Chiatula (UI Designer) [LinkedIn](https://www.linkedin.com/in/onyinye-chiatula-64b9931a1/)
 - Rose Le (Fullstack Engineer) [GitHub](https://github.com/rose-codes) I [LinkedIn](https://www.linkedin.com/in/rhle/)
 - Rachel Ludwig (Fullstack Developer) [Portfolio](https://raeludwig.github.io/Raes-portfolio/) I [GitHub](https://github.com/Raeludwig) I [LinkedIn](https://www.linkedin.com/in/raeludwig/)
 - Sara Swingle (Fullstack Developer) [Portfolio](http://www.saraswingle.com/) I [GitHub](https://github.com/swingleSara) I [LinkedIn](https://www.linkedin.com/in/swingle-sara/)
-  
+
 We would like to express our gratitude to the entire team for their contributions to our project.
 
 ![team](https://github.com/arzucaner/when-women-understand/assets/108270415/9ec19904-640b-42ce-ad81-d6383e79c272)
 
-
-
 ## 📜License
+
 This project is licensed under the MIT License. See the LICENSE file for more information.
