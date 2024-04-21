@@ -76,7 +76,7 @@ This project was developed by a team of six members. Team members and their cont
 
 Team Members:
 
-- Arzu Caner (Team Leader) I  [GitHub](https://github.com/arzucaner) I [LinkedIn](https://www.linkedin.com/in/arzucaner/)
+- Arzu Caner (Team Leader) I  [GitHub](https://github.com/arzucaner) I [LinkedIn](https://www.linkedin.com/in/arzucaner/) | [YouTube](https://www.youtube.com/channel/UCsK0v6RouRYb5I1Ny8flrOg)
 - Maryna Kosau (UX Designer) [Portfolio](https://uxfol.io/marynakosau) I [LinkedIn](https://www.linkedin.com/in/maryna-kosau)
 - Onyinye Chiatula (UI Designer) [LinkedIn](https://www.linkedin.com/in/onyinye-chiatula-64b9931a1/)
 - Rose Le (Fullstack Engineer) [GitHub](https://github.com/rose-codes) I [LinkedIn](https://www.linkedin.com/in/rhle/)
